@@ -1,5 +1,6 @@
 Site oficial: https://www.brchallenges.com/desafio/blizzard
 Material de apoio: https://developer.mozilla.org/en-US/docs/Web/API/Navigator/userAgent
+API Endepoint: https://api.brchallenges.com/api/blizzard/games
 
 
 Nível Fácil:
