@@ -1,6 +1,24 @@
+:root{
+    --bg-color: black;
+    --font-color: white;
+
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
+body{
+    height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+
+
+
+@import 'header'

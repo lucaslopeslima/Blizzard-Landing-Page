@@ -1,7 +1,57 @@
+:root {
+  --bg-color: black;
+  --font-color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  background-image: url("../img/banner-hero/games/diablo-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+}
+
+header .top-menu {
+  background-color: red;
+  /* display: flex;
+        justify-content: center;
+        align-items: center; */
+}
+
+header .top-menu .top-menu-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .top-menu .top-menu-content .top-links {
+  background-color: green;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */
