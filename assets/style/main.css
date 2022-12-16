@@ -70,10 +70,11 @@ header .top-menu .top-menu-content .top-btn-wrap {
 
 header .top-menu .top-menu-content .top-btn-wrap .top-btn {
   padding: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
   width: 120px;
   text-align: center;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 header .top-menu .top-menu-content .top-btn-wrap .btn-criar-acc {
