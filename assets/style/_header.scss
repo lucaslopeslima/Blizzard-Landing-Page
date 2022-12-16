@@ -95,7 +95,7 @@ header{
     .progress-bar{
         background-color: var(--color-btn);
         height: 2px;
-        width: 30%;
+        width: 30%; //Alterar com JS para rastrear o progresso do menu esquerdo
         transition: var(--transition);
 
     }
