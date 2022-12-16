@@ -4,8 +4,8 @@ header{
     background-size: cover;
     height: 85vh;
     .top-menu{
-        background-color: red;
         height: 80px;
+        border-bottom: 1px solid gray;
         .top-menu-content{
             width: 100%;
             display: flex;
@@ -40,4 +40,9 @@ header{
             }
         }
     }
+}
+.header-line{
+    width: 100vw;
+    height: 12px;
+    background-color: 1px solid gray;
 }
