@@ -63,7 +63,8 @@ header .top-menu .top-menu-content .logo {
 }
 
 header .top-menu .top-menu-content .top-links {
-  width: 40vw;
+  width: 55vw;
+  max-width: 700px;
   background-color: green;
   -ms-flex-pack: distribute;
       justify-content: space-around;
