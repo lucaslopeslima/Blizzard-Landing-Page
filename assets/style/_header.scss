@@ -92,6 +92,13 @@ header{
         }
         
     }
+    .progress-bar{
+        background-color: var(--color-btn);
+        height: 2px;
+        width: 30%;
+        transition: var(--transition);
+
+    }
 }
 .header-line{
     width: 100vw;

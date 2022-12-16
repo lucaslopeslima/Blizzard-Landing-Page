@@ -3,6 +3,7 @@
   --font-color: white;
   --color-btn: #00AEFF;
   --font-family: 'Poppins', sans-serif;
+  --transition: all .4s ease-in-out;
 }
 
 * {
@@ -155,6 +156,14 @@ header .content-wrap .presentation-gif p {
 header .content-wrap .presentation-gif .presentation-gif-item {
   width: 350px;
   height: 200px;
+}
+
+header .progress-bar {
+  background-color: var(--color-btn);
+  height: 2px;
+  width: 30%;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
 }
 
 .header-line {
