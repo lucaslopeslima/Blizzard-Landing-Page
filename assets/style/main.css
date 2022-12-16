@@ -65,7 +65,7 @@ header .top-menu .top-menu-content .logo {
 header .top-menu .top-menu-content .top-links {
   width: 55vw;
   max-width: 700px;
-  background-color: green;
+  /* background-color: green; */
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -92,6 +92,46 @@ header .top-menu .top-menu-content .top-btn-wrap .btn-criar-acc {
 }
 
 header .top-menu .top-menu-content .top-btn-wrap .btn-logar {
+  background-color: var(--color-btn);
+}
+
+header .content-wrap {
+  /* background-color: red; */
+  height: calc(85vh - 80px);
+}
+
+header .content-wrap .left-menu .left-menu-item {
+  cursor: pointer;
+  margin-top: 10px;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+header .content-wrap .left-menu .left-menu-active {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+header .content-wrap .presentation {
+  margin-left: 100px;
+}
+
+header .content-wrap .presentation h1 {
+  font-size: 5rem;
+  width: 800px;
+  margin-bottom: 10px;
+}
+
+header .content-wrap .presentation .presetation-btn {
+  margin-top: 25px;
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
   background-color: var(--color-btn);
 }
 
