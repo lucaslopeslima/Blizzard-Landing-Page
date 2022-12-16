@@ -49,9 +49,9 @@ header .top-menu .top-menu-content {
 }
 
 header .top-menu .top-menu-content .top-links {
+  width: 40vw;
   background-color: green;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 /*# sourceMappingURL=main.css.map */
