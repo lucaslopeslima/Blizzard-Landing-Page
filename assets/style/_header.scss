@@ -14,6 +14,24 @@ header{
                 background-color: green;
                 justify-content: space-around;
             }
+            .top-btn-wrap{
+                justify-content: space-between;
+                /* width: 400px; */
+                .top-btn{
+                    padding: 10px;
+                    margin-left: 10px;
+                    width: 120px;
+                    text-align: center;
+                    border-radius: 5px;
+                }
+                .btn-criar-acc{
+                    background-color: #ffffff00;
+                    border: 1px solid white;
+                }
+                .btn-logar{
+                    background-color: var(--color-btn);
+                }
+            }
         }
     }
 }
