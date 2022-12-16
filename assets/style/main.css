@@ -164,6 +164,8 @@ header .progress-bar {
   width: 30%;
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
 }
 
 .header-line {
