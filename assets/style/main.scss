@@ -2,6 +2,7 @@
     --bg-color: black;
     --font-color: white;
     --color-btn: #00AEFF;
+    --font-family: 'Poppins', sans-serif;
 
 }
 *{
@@ -14,6 +15,7 @@ body{
     height: 100vh;
     background-color: var(--bg-color);
     color: var(--font-color);
+    font-family: var(--font-family);
 }
 .flex-center{
     display: flex;
