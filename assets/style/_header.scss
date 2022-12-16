@@ -44,6 +44,7 @@ header{
     .content-wrap{
         /* background-color: red; */
         height: calc(85vh - 80px);
+        justify-content: space-between;
         .left-menu{
             .left-menu-item{
                 cursor: pointer;
@@ -70,6 +71,23 @@ header{
                 cursor: pointer;
                 background-color: var(--color-btn);
 
+            }
+        }
+        .presentation-gif{
+            .presentation-gif-logo{
+                width: 55%;
+                margin-left: 100%;
+                transform: translate(-100%);
+                text-align: right;
+            }
+            p{
+                margin-top: 140px;
+                width: 100%;
+                text-align: right;
+            }
+            .presentation-gif-item{
+                width: 350px;
+                height: 200px;
             }
         }
         

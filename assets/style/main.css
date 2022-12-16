@@ -98,6 +98,9 @@ header .top-menu .top-menu-content .top-btn-wrap .btn-logar {
 header .content-wrap {
   /* background-color: red; */
   height: calc(85vh - 80px);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 header .content-wrap .left-menu .left-menu-item {
@@ -133,6 +136,25 @@ header .content-wrap .presentation .presetation-btn {
   border-radius: 5px;
   cursor: pointer;
   background-color: var(--color-btn);
+}
+
+header .content-wrap .presentation-gif .presentation-gif-logo {
+  width: 55%;
+  margin-left: 100%;
+  -webkit-transform: translate(-100%);
+          transform: translate(-100%);
+  text-align: right;
+}
+
+header .content-wrap .presentation-gif p {
+  margin-top: 140px;
+  width: 100%;
+  text-align: right;
+}
+
+header .content-wrap .presentation-gif .presentation-gif-item {
+  width: 350px;
+  height: 200px;
 }
 
 .header-line {
