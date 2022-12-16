@@ -1,6 +1,7 @@
 :root {
   --bg-color: black;
   --font-color: white;
+  --color-btn: #00AEFF;
 }
 
 * {
@@ -56,5 +57,29 @@ header .top-menu .top-menu-content .top-links {
   background-color: green;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+header .top-menu .top-menu-content .top-btn-wrap {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /* width: 400px; */
+}
+
+header .top-menu .top-menu-content .top-btn-wrap .top-btn {
+  padding: 10px;
+  margin-left: 10px;
+  width: 120px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+header .top-menu .top-menu-content .top-btn-wrap .btn-criar-acc {
+  background-color: #ffffff00;
+  border: 1px solid white;
+}
+
+header .top-menu .top-menu-content .top-btn-wrap .btn-logar {
+  background-color: var(--color-btn);
 }
 /*# sourceMappingURL=main.css.map */
