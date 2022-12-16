@@ -1,1 +1,1 @@
-console.log('js ON')
+console.log('main.js ON')
