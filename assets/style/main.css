@@ -41,8 +41,8 @@ header {
 }
 
 header .top-menu {
-  background-color: red;
   height: 80px;
+  border-bottom: 1px solid gray;
 }
 
 header .top-menu .top-menu-content {
@@ -92,5 +92,11 @@ header .top-menu .top-menu-content .top-btn-wrap .btn-criar-acc {
 
 header .top-menu .top-menu-content .top-btn-wrap .btn-logar {
   background-color: var(--color-btn);
+}
+
+.header-line {
+  width: 100vw;
+  height: 12px;
+  background-color: 1px solid gray;
 }
 /*# sourceMappingURL=main.css.map */
