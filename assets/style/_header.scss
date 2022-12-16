@@ -7,8 +7,13 @@ header{
         background-color: red;
         height: 80px;
         .top-menu-content{
+            width: 100%;
             display: flex;
             align-items: center;
+            justify-content: space-between;
+            .logo{
+                margin-right: 25px;
+            }
             .top-links{
                 width: 40vw;
                 background-color: green;
