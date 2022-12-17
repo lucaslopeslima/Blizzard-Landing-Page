@@ -156,6 +156,26 @@ header .content-wrap .presentation-gif p {
 header .content-wrap .presentation-gif .presentation-gif-item {
   width: 350px;
   height: 200px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color-btn);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3rem;
+}
+
+header .content-wrap .presentation-gif .presentation-gif-item:hover i {
+  display: none;
+}
+
+header .content-wrap .presentation-gif .diablo-gif {
+  background-image: url("../img/banner-hero/games/diablo-animation-cover.png");
+}
+
+header .content-wrap .presentation-gif .diablo-gif:hover {
+  background-image: url("../img/banner-hero/games/diablo-animation.gif");
 }
 
 header .progress-bar {

@@ -88,6 +88,23 @@ header{
             .presentation-gif-item{
                 width: 350px;
                 height: 200px;
+                background-color: black;
+                background-repeat: no-repeat;
+                background-size: cover;
+                color: var(--color-btn);
+                justify-content: center;
+                font-size: 3rem;
+                &:hover{
+                    i{
+                        display: none;
+                    }
+                }
+            }
+            .diablo-gif{
+                background-image: url('../img/banner-hero/games/diablo-animation-cover.png');
+                &:hover{
+                    background-image: url('../img/banner-hero/games/diablo-animation.gif');
+                }
             }
         }
         
