@@ -24,4 +24,5 @@ Nível Difícil:
 
 Adicionais:
 [] Open Graph
-[] 
+[] gif thum onHover : modal com play. onClick: innerHTML to gif
+[] gif onHover : modal com STOP. onClick: innerHTML to gif thumb
