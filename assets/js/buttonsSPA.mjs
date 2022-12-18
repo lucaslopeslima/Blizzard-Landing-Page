@@ -8,41 +8,33 @@ const arrowAnimJogos = document.querySelector('.arrow-jogos')
 
 const esportesContent = document.querySelector('.dropdown-content-esportes')
 const arrowAnimEsportes = document.querySelector('.arrow-esportes')
-console.log(topMenu)
+console.log(topMenuBtn)
 
 topMenuBtn.forEach((element) =>{
     console.log(element.id)
     element.addEventListener('click', (e) =>{
+        topMenu.className.replace('top-menu-bg ', '')
+        //console.log('class list e ', topMenu.classList)
         if(element.id == 'jogos'){
             console.log('passou jogos')
             esportesContent.classList.remove("dropdown-content-active");
-            topMenu.classList.remove('top-menu-bg')
+            //topMenu.classList.remove('top-menu-bg')
             arrowAnimEsportes.classList.remove("arrow-color-active");
             topMenu.classList.toggle('top-menu-bg')
             jogosContent.classList.toggle("dropdown-content-active")
             arrowAnimJogos.classList.toggle("arrow-color-active")
-            /* if(jogosContent.style.display == 'block'){
-                jogosContent.style.display = 'none'
-            }
-            esportesContent.style.display = 'none'
-            jogosContent.style.display = 'block' */
+            
         } else if (element.id == 'esportes'){
             console.log('passou esportes')
             jogosContent.classList.remove("dropdown-content-active");
             arrowAnimJogos.classList.remove("arrow-color-active");
-            topMenu.classList.remove('top-menu-bg')
+            //topMenu.classList.remove('top-menu-bg')
             topMenu.classList.toggle('top-menu-bg')
             esportesContent.classList.toggle("dropdown-content-active")
             arrowAnimEsportes.classList.toggle("arrow-color-active")
-            /* jogosContent.style.display = 'none'
-            esportesContent.style.display = 'block' */
+            
         } 
     })
-    /* if(element.id == 'jogos'){
-        console.log('passou jogos')
-    } else if (element.id == 'esportes'){
-        console.log('passou esportes')
-    } */
 })
 
 
