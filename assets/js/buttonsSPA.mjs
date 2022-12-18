@@ -20,6 +20,7 @@ const bannerTxt = document.querySelector('.banner-txt')
 const bannerBtn = document.querySelector('.banner-btn')
 const bannerGifLogo = document.querySelector('.presentation-gif-logo')
 const bannerGif = document.querySelector('.presentation-gif-item')
+const progressBar = document.querySelector('.header-progress-bar')
 //console.log(bannerGifLogo)
 //console.log(bannerGif)
 //console.log(banner)
@@ -38,6 +39,7 @@ function updateBanner(prop){
           bannerBtn.innerHTML = 'jogue agora'
           bannerGifLogo.className = 'presentation-gif-logo diabloiv-gif-logo'
           bannerGif.className = 'presentation-gif-item flex-center diablo-gif'
+          progressBar.style.width = '30%'
           break;
         case 'heartstone':
           console.log('case heartstone');
@@ -46,6 +48,7 @@ function updateBanner(prop){
           bannerBtn.innerHTML = 'Reserve agora na pré-venda'
           bannerGifLogo.className = 'presentation-gif-logo heartstone-gif-logo'
           bannerGif.className = 'presentation-gif-item flex-center heartstone-gif'
+          progressBar.style.width = '50%'
           break;
         case 'wow':
           console.log('case wow');
@@ -54,6 +57,7 @@ function updateBanner(prop){
           bannerBtn.innerHTML = 'Reserve agora na pré-venda'
           bannerGifLogo.className = 'presentation-gif-logo wow-gif-logo'
           bannerGif.className = 'presentation-gif-item flex-center wow-gif'
+          progressBar.style.width = '70%'
           break;
         default:
           console.log(`Sorry`);

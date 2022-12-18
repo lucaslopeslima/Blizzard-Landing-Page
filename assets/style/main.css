@@ -115,6 +115,12 @@ header .content-wrap .left-menu .left-menu-active {
           filter: grayscale(0);
 }
 
+header .content-wrap .left-menu .left-menu-item-disabled {
+  margin-top: 10px;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
 header .content-wrap .presentation {
   margin-left: 100px;
 }
@@ -141,11 +147,13 @@ header .content-wrap .presentation .presetation-btn {
 }
 
 header .content-wrap .presentation-gif .presentation-gif-logo {
-  /* width: 55%; */
-  width: 200px;
-  height: 100px;
+  /* background-color: black; */
+  width: 100%;
+  /* width: 200px; */
+  height: 160px;
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   margin-left: 100%;
   -webkit-transform: translate(-100%);
           transform: translate(-100%);
@@ -199,7 +207,7 @@ header .content-wrap .presentation-gif .wow-gif:hover {
   background-image: url("../img/banner-hero/games/wow-animation.gif");
 }
 
-header .progress-bar {
+header .header-progress-bar {
   background-color: var(--color-btn);
   height: 2px;
   width: 30%;
