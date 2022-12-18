@@ -27,21 +27,20 @@ header{
                 }
                 
                 .dropdown {
-  
                     display: inline-block;
-                    /* &:hover{
-                        .dropdown-content{
-                            display: block;
-                        }
-                        .top-links{
-                            background-color: var(--color-banner-bg);
-                        }
-                    } */
                     .dropbtn {
                         color: white;
                         padding: 16px;
                         font-size: 16px;
                         border: none;
+                        .arrow-color-active{
+                            color: var(--color-btn);
+                            i{
+                                /* transform: rotate(180deg); */
+                                transform: rotate3d(0, 0, 1, 180deg);
+                                transition: var(--transition);
+                            }
+                        }
                     }
                     .dropdown-content{
                         display: none;
@@ -54,9 +53,6 @@ header{
                         height: 720px;
                         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
                         z-index: 3;
-                        &:hover{
-                            display: block;
-                        }
                     }
                     .dropdown-content-active{
                         display: block;
