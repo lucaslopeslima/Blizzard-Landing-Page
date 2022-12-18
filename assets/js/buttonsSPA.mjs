@@ -1,16 +1,23 @@
 console.log('buttonsSPA.js ON')
 
 const topMenuBtn = document.querySelectorAll('.dropbtn')
+
 const jogosContent = document.querySelector('.dropdown-content-jogos')
-const arrowAnim = document.querySelectorAll('arrow-color')
+const arrowAnimJogos = document.querySelector('.arrow-jogos')
+
 const esportesContent = document.querySelector('.dropdown-content-esportes')
+const arrowAnimEsportes = document.querySelector('.arrow-esportes')
 console.log(topMenuBtn)
+
 topMenuBtn.forEach((element) =>{
     console.log(element.id)
     element.addEventListener('click', (e) =>{
         if(element.id == 'jogos'){
             console.log('passou jogos')
+            esportesContent.classList.remove("dropdown-content-active");
+            arrowAnimEsportes.classList.remove("arrow-color-active");
             jogosContent.classList.toggle("dropdown-content-active")
+            arrowAnimJogos.classList.toggle("arrow-color-active")
             /* if(jogosContent.style.display == 'block'){
                 jogosContent.style.display = 'none'
             }
@@ -18,7 +25,10 @@ topMenuBtn.forEach((element) =>{
             jogosContent.style.display = 'block' */
         } else if (element.id == 'esportes'){
             console.log('passou esportes')
+            jogosContent.classList.remove("dropdown-content-active");
+            arrowAnimJogos.classList.remove("arrow-color-active");
             esportesContent.classList.toggle("dropdown-content-active")
+            arrowAnimEsportes.classList.toggle("arrow-color-active")
             /* jogosContent.style.display = 'none'
             esportesContent.style.display = 'block' */
             
