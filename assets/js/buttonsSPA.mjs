@@ -49,11 +49,11 @@ function updateBanner(prop){
           break;
         case 'wow':
           console.log('case wow');
-          bannerTitle.innerHTML = 'Novo pacote de expansão de Heartstone'
-          bannerTxt.innerHTML = 'A Horda e a Aliança se encontram no Vale Alterac para lutar.'
+          bannerTitle.innerHTML = 'Desbrave as Terras Sombrias e Shadowlands!'
+          bannerTxt.innerHTML = 'O que faz além do mundo que você conhece?.'
           bannerBtn.innerHTML = 'Reserve agora na pré-venda'
-          bannerGifLogo.className = 'presentation-gif-logo diabloiv-logo'
-          bannerGif.className = 'presentation-gif-item flex-center diablo-gif'
+          bannerGifLogo.className = 'presentation-gif-logo wow-gif-logo'
+          bannerGif.className = 'presentation-gif-item flex-center wow-gif'
           break;
         default:
           console.log(`Sorry`);

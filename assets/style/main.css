@@ -184,11 +184,11 @@ header .content-wrap .presentation-gif .diablo-gif:hover {
 }
 
 header .content-wrap .presentation-gif .heartstone-gif {
-  background-image: url("../img/banner-hero/games/heartstone-animation-cover.png");
+  background-image: url("../img/banner-hero/games/hearthstone-animation-cover.png");
 }
 
 header .content-wrap .presentation-gif .heartstone-gif:hover {
-  background-image: url("../img/banner-hero/games/heartstone-animation.gif");
+  background-image: url("../img/banner-hero/games/hearthstone-animation.gif");
 }
 
 header .content-wrap .presentation-gif .wow-gif {
@@ -227,6 +227,10 @@ header .progress-bar {
 
 .wow {
   background-image: url("../img/banner-hero/games/wow-bg.png");
+}
+
+.wow-gif-logo {
+  background-image: url("../img/banner-hero/games/wow-logo.png");
 }
 
 .header-line {
