@@ -2,6 +2,7 @@ console.log('buttonsSPA.js ON')
 
 const topMenuBtn = document.querySelectorAll('.dropbtn')
 const jogosContent = document.querySelector('.dropdown-content-jogos')
+const arrowAnim = document.querySelectorAll('arrow-color')
 const esportesContent = document.querySelector('.dropdown-content-esportes')
 console.log(topMenuBtn)
 topMenuBtn.forEach((element) =>{
