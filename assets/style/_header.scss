@@ -48,9 +48,14 @@ header{
             .left-menu-item{
                 cursor: pointer;
                 margin-top: 10px;
-                filter: grayscale(1);   
+                filter: grayscale(1);
+                
             }.left-menu-active{
                 filter: grayscale(0);
+            }
+            .left-menu-item-disabled{
+                margin-top: 10px;
+                filter: grayscale(1);
             }
         }
         .presentation{
@@ -74,11 +79,13 @@ header{
         }
         .presentation-gif{
             .presentation-gif-logo{
-                /* width: 55%; */
-                width: 200px;
-                height: 100px;
+                /* background-color: black; */
+                width: 100%;
+                /* width: 200px; */
+                height: 160px;
                 background-size: contain;
                 background-repeat: no-repeat;
+                background-position: center;
                 margin-left: 100%;
                 transform: translate(-100%);
                 text-align: right;
@@ -124,7 +131,7 @@ header{
         }
         
     }
-    .progress-bar{
+    .header-progress-bar{
         background-color: var(--color-btn);
         height: 2px;
         width: 30%; //Alterar com JS para rastrear o progresso do menu esquerdo
