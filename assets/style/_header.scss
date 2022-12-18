@@ -1,5 +1,4 @@
 header{
-    background-image: url('../img/banner-hero/games/diablo-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 85vh;
@@ -64,7 +63,7 @@ header{
             .presetation-btn{
                 margin-top: 25px;
                 padding: 15px;
-                width: 150px;
+                width: fit-content;
                 text-align: center;
                 justify-content: center;
                 border-radius: 5px;
@@ -117,6 +116,15 @@ header{
         transform: translateY(-100%);
 
     }
+}
+.diabloiv{
+    background-image: url('../img/banner-hero/games/diablo-bg.png');
+}
+.heartstone{
+    background-image: url('../img/banner-hero/games/hearthstone-bg.png');
+}
+.wow{
+    background-image: url('../img/banner-hero/games/wow-bg.png');
 }
 .header-line{
     width: 100vw;
