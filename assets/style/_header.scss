@@ -37,7 +37,7 @@ header{
                             color: var(--color-btn);
                             i{
                                 /* transform: rotate(180deg); */
-                                transform: rotate3d(0, 0, 1, 180deg);
+                                transform: rotate3d(1, 0, 0, 180deg);
                                 transition: var(--transition);
                             }
                         }
