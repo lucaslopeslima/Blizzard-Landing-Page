@@ -18,8 +18,10 @@ const banner = document.querySelector('header')
 const bannerTitle = document.querySelector('.banner-title')
 const bannerTxt = document.querySelector('.banner-txt')
 const bannerBtn = document.querySelector('.banner-btn')
-const bannerGifLogo = document.querySelector('presentation-gif-logo')
-const bannerGif = document.querySelector('presentation-gif-item')
+const bannerGifLogo = document.querySelector('.presentation-gif-logo')
+const bannerGif = document.querySelector('.presentation-gif-item')
+//console.log(bannerGifLogo)
+//console.log(bannerGif)
 //console.log(banner)
 //console.log(bannerTitle)
 //console.log(bannerTxt)
@@ -34,18 +36,24 @@ function updateBanner(prop){
           bannerTitle.innerHTML = 'Retorne à escuridão com o game DiabloIV'
           bannerTxt.innerHTML = 'O retorno de Lilith traz uma era de escuridão e sofrimento.'
           bannerBtn.innerHTML = 'jogue agora'
+          bannerGifLogo.className = 'presentation-gif-logo diabloiv-gif-logo'
+          bannerGif.className = 'presentation-gif-item flex-center diablo-gif'
           break;
         case 'heartstone':
           console.log('case heartstone');
-          
           bannerTitle.innerHTML = 'Novo pacote de expansão de Heartstone'
           bannerTxt.innerHTML = 'A Horda e a Aliança se encontram no Vale Alterac para lutar.'
           bannerBtn.innerHTML = 'Reserve agora na pré-venda'
-          // expected output: "Mangoes and papayas are $2.79 a pound."
+          bannerGifLogo.className = 'presentation-gif-logo heartstone-gif-logo'
+          bannerGif.className = 'presentation-gif-item flex-center heartstone-gif'
           break;
         case 'wow':
           console.log('case wow');
-          // expected output: "Mangoes and papayas are $2.79 a pound."
+          bannerTitle.innerHTML = 'Novo pacote de expansão de Heartstone'
+          bannerTxt.innerHTML = 'A Horda e a Aliança se encontram no Vale Alterac para lutar.'
+          bannerBtn.innerHTML = 'Reserve agora na pré-venda'
+          bannerGifLogo.className = 'presentation-gif-logo diabloiv-logo'
+          bannerGif.className = 'presentation-gif-item flex-center diablo-gif'
           break;
         default:
           console.log(`Sorry`);

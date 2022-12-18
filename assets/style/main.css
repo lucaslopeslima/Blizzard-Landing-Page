@@ -183,6 +183,22 @@ header .content-wrap .presentation-gif .diablo-gif:hover {
   background-image: url("../img/banner-hero/games/diablo-animation.gif");
 }
 
+header .content-wrap .presentation-gif .heartstone-gif {
+  background-image: url("../img/banner-hero/games/heartstone-animation-cover.png");
+}
+
+header .content-wrap .presentation-gif .heartstone-gif:hover {
+  background-image: url("../img/banner-hero/games/heartstone-animation.gif");
+}
+
+header .content-wrap .presentation-gif .wow-gif {
+  background-image: url("../img/banner-hero/games/wow-animation-cover.png");
+}
+
+header .content-wrap .presentation-gif .wow-gif:hover {
+  background-image: url("../img/banner-hero/games/wow-animation.gif");
+}
+
 header .progress-bar {
   background-color: var(--color-btn);
   height: 2px;
@@ -197,20 +213,16 @@ header .progress-bar {
   background-image: url("../img/banner-hero/games/diablo-bg.png");
 }
 
-.diabloiv-logo {
+.diabloiv-gif-logo {
   background-image: url("../img/banner-hero/games/diablo-logo.png");
-}
-
-.diabloiv-gif-cover {
-  background-image: url("../img/banner-hero/games/diablo-animation-cover.png");
-}
-
-.diabloiv-gif {
-  background-image: url("../img/banner-hero/games/diablo-animation.gif");
 }
 
 .heartstone {
   background-image: url("../img/banner-hero/games/hearthstone-bg.png");
+}
+
+.heartstone-gif-logo {
+  background-image: url("../img/banner-hero/games/hearthstone-logo.png");
 }
 
 .wow {

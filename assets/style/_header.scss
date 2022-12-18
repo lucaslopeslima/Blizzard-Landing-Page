@@ -109,6 +109,18 @@ header{
                     background-image: url('../img/banner-hero/games/diablo-animation.gif');
                 }
             }
+            .heartstone-gif{
+                background-image: url('../img/banner-hero/games/heartstone-animation-cover.png');
+                &:hover{
+                    background-image: url('../img/banner-hero/games/heartstone-animation.gif');
+                }
+            }
+            .wow-gif{
+                background-image: url('../img/banner-hero/games/wow-animation-cover.png');
+                &:hover{
+                    background-image: url('../img/banner-hero/games/wow-animation.gif');
+                }
+            }
         }
         
     }
@@ -124,21 +136,19 @@ header{
 .diabloiv{
     background-image: url('../img/banner-hero/games/diablo-bg.png');
 }
-.diabloiv-logo{
+.diabloiv-gif-logo{
     background-image: url('../img/banner-hero/games/diablo-logo.png');
-}
-.diabloiv-gif-cover{
-    background-image: url('../img/banner-hero/games/diablo-animation-cover.png');
-}
-.diabloiv-gif{
-    background-image: url('../img/banner-hero/games/diablo-animation.gif');
 }
 .heartstone{
     background-image: url('../img/banner-hero/games/hearthstone-bg.png');
 }
+.heartstone-gif-logo{
+    background-image: url('../img/banner-hero/games/hearthstone-logo.png');
+}
 .wow{
     background-image: url('../img/banner-hero/games/wow-bg.png');
 }
+
 .header-line{
     width: 100vw;
     height: 12px;
