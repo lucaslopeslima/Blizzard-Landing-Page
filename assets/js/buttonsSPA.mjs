@@ -1,5 +1,45 @@
 console.log('buttonsSPA.js ON')
 
+const topMenuBtn = document.querySelectorAll('.dropbtn')
+const jogosContent = document.querySelector('.dropdown-content-jogos')
+const esportesContent = document.querySelector('.dropdown-content-esportes')
+console.log(topMenuBtn)
+topMenuBtn.forEach((element) =>{
+    console.log(element.id)
+    element.addEventListener('click', (e) =>{
+        if(element.id == 'jogos'){
+            console.log('passou jogos')
+            jogosContent.classList.toggle("dropdown-content-active")
+            /* if(jogosContent.style.display == 'block'){
+                jogosContent.style.display = 'none'
+            }
+            esportesContent.style.display = 'none'
+            jogosContent.style.display = 'block' */
+        } else if (element.id == 'esportes'){
+            console.log('passou esportes')
+            esportesContent.classList.toggle("dropdown-content-active")
+            /* jogosContent.style.display = 'none'
+            esportesContent.style.display = 'block' */
+            
+        }
+    })
+    /* if(element.id == 'jogos'){
+        console.log('passou jogos')
+    } else if (element.id == 'esportes'){
+        console.log('passou esportes')
+    } */
+})
+
+
+
+
+
+
+
+
+
+
+
 const leftBtn = document.querySelectorAll('.left-menu-item')
 //console.log(leftBtn)
 
