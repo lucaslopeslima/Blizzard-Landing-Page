@@ -110,9 +110,9 @@ header{
                 }
             }
             .heartstone-gif{
-                background-image: url('../img/banner-hero/games/heartstone-animation-cover.png');
+                background-image: url('../img/banner-hero/games/hearthstone-animation-cover.png');
                 &:hover{
-                    background-image: url('../img/banner-hero/games/heartstone-animation.gif');
+                    background-image: url('../img/banner-hero/games/hearthstone-animation.gif');
                 }
             }
             .wow-gif{
@@ -147,6 +147,9 @@ header{
 }
 .wow{
     background-image: url('../img/banner-hero/games/wow-bg.png');
+}
+.wow-gif-logo{
+    background-image: url('../img/banner-hero/games/wow-logo.png');
 }
 
 .header-line{
