@@ -74,7 +74,11 @@ header{
         }
         .presentation-gif{
             .presentation-gif-logo{
-                width: 55%;
+                /* width: 55%; */
+                width: 185px;
+                height: 105px;
+                background-size: contain;
+                background-repeat: no-repeat;
                 margin-left: 100%;
                 transform: translate(-100%);
                 text-align: right;
@@ -119,6 +123,15 @@ header{
 }
 .diabloiv{
     background-image: url('../img/banner-hero/games/diablo-bg.png');
+}
+.diabloiv-logo{
+    background-image: url('../img/banner-hero/games/diablo-logo.png');
+}
+.diabloiv-gif-cover{
+    background-image: url('../img/banner-hero/games/diablo-animation-cover.png');
+}
+.diabloiv-gif{
+    background-image: url('../img/banner-hero/games/diablo-animation.gif');
 }
 .heartstone{
     background-image: url('../img/banner-hero/games/hearthstone-bg.png');
