@@ -1,13 +1,14 @@
 console.log('buttonsSPA.js ON')
 
 const topMenuBtn = document.querySelectorAll('.dropbtn')
+const topMenu = document.querySelector('.top-menu')
 
 const jogosContent = document.querySelector('.dropdown-content-jogos')
 const arrowAnimJogos = document.querySelector('.arrow-jogos')
 
 const esportesContent = document.querySelector('.dropdown-content-esportes')
 const arrowAnimEsportes = document.querySelector('.arrow-esportes')
-console.log(topMenuBtn)
+console.log(topMenu)
 
 topMenuBtn.forEach((element) =>{
     console.log(element.id)
@@ -15,7 +16,9 @@ topMenuBtn.forEach((element) =>{
         if(element.id == 'jogos'){
             console.log('passou jogos')
             esportesContent.classList.remove("dropdown-content-active");
+            topMenu.classList.remove('top-menu-bg')
             arrowAnimEsportes.classList.remove("arrow-color-active");
+            topMenu.classList.toggle('top-menu-bg')
             jogosContent.classList.toggle("dropdown-content-active")
             arrowAnimJogos.classList.toggle("arrow-color-active")
             /* if(jogosContent.style.display == 'block'){
@@ -27,12 +30,13 @@ topMenuBtn.forEach((element) =>{
             console.log('passou esportes')
             jogosContent.classList.remove("dropdown-content-active");
             arrowAnimJogos.classList.remove("arrow-color-active");
+            topMenu.classList.remove('top-menu-bg')
+            topMenu.classList.toggle('top-menu-bg')
             esportesContent.classList.toggle("dropdown-content-active")
             arrowAnimEsportes.classList.toggle("arrow-color-active")
             /* jogosContent.style.display = 'none'
             esportesContent.style.display = 'block' */
-            
-        }
+        } 
     })
     /* if(element.id == 'jogos'){
         console.log('passou jogos')
