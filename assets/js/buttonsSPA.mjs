@@ -13,14 +13,14 @@ console.log(topMenuBtn)
 topMenuBtn.forEach((element) =>{
     console.log(element.id)
     element.addEventListener('click', (e) =>{
-        topMenu.className.replace('top-menu-bg ', '')
+        //topMenu.className.replace('top-menu-bg ', '')
         //console.log('class list e ', topMenu.classList)
         if(element.id == 'jogos'){
             console.log('passou jogos')
             esportesContent.classList.remove("dropdown-content-active");
             //topMenu.classList.remove('top-menu-bg')
             arrowAnimEsportes.classList.remove("arrow-color-active");
-            topMenu.classList.toggle('top-menu-bg')
+            //topMenu.classList.toggle('top-menu-bg')
             jogosContent.classList.toggle("dropdown-content-active")
             arrowAnimJogos.classList.toggle("arrow-color-active")
             
@@ -29,7 +29,7 @@ topMenuBtn.forEach((element) =>{
             jogosContent.classList.remove("dropdown-content-active");
             arrowAnimJogos.classList.remove("arrow-color-active");
             //topMenu.classList.remove('top-menu-bg')
-            topMenu.classList.toggle('top-menu-bg')
+            //topMenu.classList.toggle('top-menu-bg')
             esportesContent.classList.toggle("dropdown-content-active")
             arrowAnimEsportes.classList.toggle("arrow-color-active")
             
