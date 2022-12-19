@@ -74,7 +74,7 @@ header .top-menu .top-menu-content .top-links {
 }
 
 header .top-menu .top-menu-content .top-links .dropbtn {
-  z-index: 9999;
+  /* z-index: 9999; */
 }
 
 header .top-menu .top-menu-content .top-links .menu-links {
