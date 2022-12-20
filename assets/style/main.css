@@ -41,6 +41,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 85vh;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
 }
 
 header .top-menu {
@@ -299,6 +301,8 @@ header .header-progress-bar {
 }
 
 .dropdown-content {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
   display: none;
   position: absolute;
   left: 0;
@@ -337,11 +341,12 @@ header .header-progress-bar {
 
 .dropdown-content .dropdown-content-container .drowdown-items .dropdown-jogos-item {
   /* background-color: red; */
-  width: 200px;
-  height: 150px;
+  width: 100px;
+  height: 70px;
   color: #9d9d9d;
   text-align: center;
-  margin-left: 100px;
+  margin-left: 200px;
+  margin-top: -40px;
 }
 
 .dropdown-content .dropdown-content-container .drowdown-items .dropdown-jogos-item img {
@@ -365,6 +370,10 @@ header .header-progress-bar {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.dropdown-content .dropdown-content-container .dropdown-footer .footer-item {
+  margin-left: 45px;
 }
 
 .dropdown-content .dropdown-content-container .dropdown-footer span {

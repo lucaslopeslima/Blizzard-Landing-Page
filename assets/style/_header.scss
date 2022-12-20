@@ -2,6 +2,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 85vh;
+    transition: var(--transition);
     .top-menu{
         height: 80px;
         border-bottom: 1px solid gray;
@@ -208,6 +209,7 @@ header{
 }
 
 .dropdown-content{
+    transition: var(--transition);
     display: none;
     position: absolute;
     left: 0;
@@ -239,11 +241,12 @@ header{
             padding-bottom: 70px;
             .dropdown-jogos-item{
                 /* background-color: red; */
-                width: 200px;
-                height: 150px;
+                width: 100px;
+                height: 70px;
                 color: #9d9d9d;
                 text-align: center;
-                margin-left: 100px;
+                margin-left: 200px;
+                margin-top: -40px;
                 //flex-wrap: wrap;
                 img{
                     width: 100%;
@@ -265,6 +268,9 @@ header{
             bottom: 0;
             color: var(--color-btn);
             justify-content: center;
+            .footer-item{
+                margin-left: 45px;
+            }
             span{
                 color: white;
                 margin-left: 10px;
