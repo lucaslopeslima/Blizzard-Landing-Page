@@ -322,20 +322,26 @@ header .header-progress-bar {
 }
 
 .dropdown-content .dropdown-content-container .drowdown-items {
-  margin: 0 20px;
-  width: 100%;
+  /* background-color: green; */
+  /* margin: 0 20px; */
+  width: 100vw;
   height: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 50px;
+  padding-top: 15px;
+  padding-bottom: 70px;
 }
 
 .dropdown-content .dropdown-content-container .drowdown-items .dropdown-jogos-item {
-  /* background-color: green; */
+  /* background-color: red; */
   width: 200px;
-  height: 100px;
+  height: 150px;
   color: #9d9d9d;
   text-align: center;
+  margin-left: 100px;
 }
 
 .dropdown-content .dropdown-content-container .drowdown-items .dropdown-jogos-item img {
