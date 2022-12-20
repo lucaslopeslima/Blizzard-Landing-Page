@@ -11,9 +11,25 @@ fetch(url).then((res)=>{
     console.log(data)
     data.forEach(element => {
         console.log(element)
-
+        criarDropdownJogos(element.logo, element.name)
     });
 }).catch(e => {
     console.log(e);
     return e;
 });
+
+
+
+
+function criarDropdownJogos(logo, titulo){
+    dropdownJogos.innerHTML += 
+    `<div class="dropdownJogosItem">
+        <a href="" target="_blank" rel="noopener">
+            <img src="${logo}" alt="">
+            <div class="blog-text">
+            <h4>${titulo}</h4>
+            <p></p>
+            </div>
+        </a>
+    </div>`;
+}
