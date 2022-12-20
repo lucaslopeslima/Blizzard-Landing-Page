@@ -1,7 +1,7 @@
 console.log('handleAPI.js ON')
 const url = 'https://api.brchallenges.com/api/blizzard/games'
 const dropdownJogos = document.querySelector('.dropdown-jogos')
-const dropdownEsportes = document.querySelector('.dropdown-esportes')
+const dropdownEsportes = document.querySelector('.content-esportes')
 console.log(dropdownJogos)
 
 
@@ -12,7 +12,7 @@ fetch(url).then((res)=>{
     data.forEach(element => {
         //console.log(element)
         //console.log(element.logo)
-        //criarDropdownJogos(element.logo, element.name)
+        criarDropdownJogos(element.logo, element.name)
     });
 }).catch(e => {
     console.log(e);
@@ -25,13 +25,10 @@ fetch(url).then((res)=>{
 function criarDropdownJogos(logo, titulo){
     console.log('entrou na function')
     dropdownJogos.innerHTML += 
-    `<div class="dropdownJogosItem">
-        <a href="" target="_blank" rel="noopener">
-            <img src="${logo}" alt="">
-            <div class="blog-text">
-            <h4>${titulo}</h4>
-            <p></p>
-            </div>
-        </a>
+    `<div class="dropdown-jogos-item">
+        <img src="${logo}" alt="${titulo}">
+        <div class="blog-text">
+            <p>${titulo}</p>
+        </div>
     </div>`;
 }
