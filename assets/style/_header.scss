@@ -233,6 +233,12 @@ header{
             width: 100%;
             position: absolute;
             bottom: 0;
+            color: var(--color-btn);
+            justify-content: center;
+            span{
+                color: white;
+                margin-left: 10px;
+            }
         }
 
     }
