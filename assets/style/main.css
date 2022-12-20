@@ -327,6 +327,15 @@ header .header-progress-bar {
   width: 100%;
   position: absolute;
   bottom: 0;
+  color: var(--color-btn);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dropdown-content .dropdown-content-container .dropdown-footer span {
+  color: white;
+  margin-left: 10px;
 }
 
 .dropdown-content-active {
