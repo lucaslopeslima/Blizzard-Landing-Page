@@ -417,6 +417,7 @@ header .header-progress-bar {
           box-sizing: content-box;
   padding: 20px;
   margin-bottom: 25px;
+  cursor: pointer;
 }
 
 .jogos-exclusivos .main-content .jogos-item .img-wrap {
