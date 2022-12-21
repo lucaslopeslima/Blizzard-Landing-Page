@@ -408,7 +408,7 @@ header .header-progress-bar {
 }
 
 .jogos-exclusivos .main-content .jogos-item {
-  background-color: red;
+  /* background-color: red; */
   width: 300px;
   height: -webkit-min-content;
   height: -moz-min-content;
@@ -423,7 +423,7 @@ header .header-progress-bar {
   height: 413px;
   position: relative;
   overflow: hidden;
-  background-color: green;
+  /* background-color: green; */
 }
 
 .jogos-exclusivos .main-content .jogos-item .img-wrap .jogos-exc-logo {
@@ -440,6 +440,8 @@ header .header-progress-bar {
 }
 
 .jogos-exclusivos .main-content .jogos-item:hover .imagem-exc {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
   scale: 1.1;
 }
 
