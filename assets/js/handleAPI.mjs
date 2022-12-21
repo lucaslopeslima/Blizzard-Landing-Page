@@ -14,7 +14,7 @@ fetch(url).then((res)=>{
         //console.log(element)
         //console.log(element.logo)
         criarDropdownJogos(element.logo, element.name)
-        criarJogosExclusivos(element.image, element.name, element.category)
+        criarJogosExclusivos(element.image, element.logo, element.name, element.category)
     })
     jogosExclusivos.innerHTML += 
     `<div class="jogos-item">
@@ -46,11 +46,14 @@ function criarDropdownJogos(logo, titulo){
     </div>`;
 }
 
-function criarJogosExclusivos(imagem, titulo, categoria){
+function criarJogosExclusivos(imagem,logo, titulo, categoria){
 
     jogosExclusivos.innerHTML +=
     `<div class="jogos-item">
-        <img src="${imagem}" alt="${imagem}">
+        <div class="img-wrap">
+            <img class="imagem-exc" src="${imagem}" alt="${imagem}">
+            <img class="jogos-exc-logo" src="${logo}" alt="${logo}">
+        </div>
         <div class="jogos-text">
             <h4>${titulo}</h4>
             <p>${categoria}</p>
