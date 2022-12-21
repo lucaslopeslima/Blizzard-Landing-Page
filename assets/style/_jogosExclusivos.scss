@@ -10,15 +10,34 @@
         flex-wrap: wrap;
         justify-content: space-between;
         .jogos-item{
-            /* background-color: red; */
+            background-color: red;
             width: 300px;
             height: min-content;
             box-sizing: content-box;
             padding: 20px;
             margin-bottom: 25px;
+            .img-wrap{
+                height: 413px;
+                position: relative;
+                overflow: hidden;
+                background-color: green;
+                .jogos-exc-logo{
+                    margin: 0 auto;
+                    margin-top: -140px;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                }
+            }
+            
             .jogos-text{
                 width: 100%;
                 /* background-color: blue; */
+            }
+            &:hover{
+                .imagem-exc{
+                    scale: 1.1;
+                }
             }
         }
         .jogos-item-all{
