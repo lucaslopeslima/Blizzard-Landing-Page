@@ -28,3 +28,4 @@ Adicionais:
 [x] gif onHover : modal com STOP. onClick: innerHTML to gif thumb
 [] btn hover
 [] transition animation fix
+[] gif animation border blur & shadow blur
