@@ -393,6 +393,46 @@ header .header-progress-bar {
   height: fit-content;
 }
 
+.jogos-exclusivos .main-header {
+  width: 100%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  padding: 20px;
+}
+
+.jogos-exclusivos .main-header .games {
+  height: 120px;
+  color: gray;
+}
+
+.jogos-exclusivos .main-header .jogos-exc {
+  font-size: 2rem;
+  width: 280px;
+  margin-left: 15px;
+}
+
+.jogos-exclusivos .main-header .icons {
+  height: 50px;
+  width: 200px;
+  font-size: 1.5rem;
+}
+
+.jogos-exclusivos .main-header .icons i {
+  margin-left: 20px;
+}
+
+.jogos-exclusivos .main-header .all-games {
+  color: var(--color-btn);
+}
+
 .jogos-exclusivos .main-content {
   /* background-color: green; */
   width: 100%;
@@ -448,11 +488,15 @@ header .header-progress-bar {
 
 .jogos-exclusivos .main-content .jogos-item-all {
   height: 100%;
-  height: 470px;
+  height: 414px;
   border: 1px solid white;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+}
+
+.jogos-exclusivos .main-content .jogos-item-all .jogos-text-all {
+  margin-top: 25px;
 }
 /*# sourceMappingURL=main.css.map */
