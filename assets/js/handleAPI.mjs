@@ -16,16 +16,17 @@ fetch(url).then((res)=>{
         criarDropdownJogos(element.logo, element.name)
         criarJogosExclusivos(element.image, element.name, element.category)
     })
-    jogosExclusivos.innerHTML += `<div class="jogos-item">
-    <div class="jogos-item-all flex-center">
-        <div>
-            <img src="assets/img/logo-blizzard.png" alt="">
-            <div class="jogos-text jogos-text-all">
-                <h4><i class="fas fa-ellipsis-v"></i><i class="fas fa-ellipsis-v"></i> Ver todos os jogos</h4>
+    jogosExclusivos.innerHTML += 
+    `<div class="jogos-item">
+        <div class="jogos-item-all flex-center">
+            <div>
+                <img src="assets/img/logo-blizzard.png" alt="">
+                <div class="jogos-text jogos-text-all">
+                    <h4><i class="fas fa-ellipsis-v"></i><i class="fas fa-ellipsis-v"></i> Ver todos os jogos</h4>
+                </div>
             </div>
         </div>
-    </div>
-</div>`;
+    </div>`;
 }).catch(e => {
     console.log(e);
     return e;
