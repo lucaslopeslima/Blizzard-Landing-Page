@@ -24,5 +24,7 @@ Nível Difícil:
 
 Adicionais:
 [] Open Graph
-[] gif thum onHover : modal com play. onClick: innerHTML to gif
-[] gif onHover : modal com STOP. onClick: innerHTML to gif thumb
+[x] gif thum onHover : modal com play. onClick: innerHTML to gif
+[x] gif onHover : modal com STOP. onClick: innerHTML to gif thumb
+[] btn hover
+[] transition animation fix
