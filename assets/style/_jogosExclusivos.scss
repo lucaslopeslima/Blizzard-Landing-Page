@@ -2,6 +2,35 @@
     /* background-color: rgb(0, 50, 0); */
     width: 100%;
     height: fit-content;
+    .main-header{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        padding: 20px;
+        .games{
+            height: 120px;
+            color: gray;
+        }
+        .jogos-exc{
+            font-size: 2rem;
+            width: 280px;
+            margin-left: 15px;
+        }
+        .icons{
+            height: 50px;
+            width: 200px;
+            font-size: 1.5rem;
+            i{
+                margin-left: 20px;
+            }
+        }
+        .all-games{
+            color: var(--color-btn);
+        }
+    }
+
     .main-content{
         /* background-color: green; */
         width: 100%;
@@ -44,10 +73,13 @@
         }
         .jogos-item-all{
             height: 100%;
-            height: 470px;
+            height: 414px;
             border: 1px solid white;
             justify-content: center;
             text-align: center;
+            .jogos-text-all{
+                margin-top: 25px;
+            }
         }
     }
 }
