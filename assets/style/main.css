@@ -499,4 +499,13 @@ header .header-progress-bar {
 .jogos-exclusivos .main-content .jogos-item-all .jogos-text-all {
   margin-top: 25px;
 }
+
+.footer-container {
+  background-color: green;
+  height: 80vh;
+}
+
+.footer-container .footer-left-container {
+  background-color: red;
+}
 /*# sourceMappingURL=main.css.map */
