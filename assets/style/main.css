@@ -531,8 +531,17 @@ header .header-progress-bar {
 }
 
 .footer-container .footer-left-container .footer-btn {
-  width: 150px;
-  height: 80px;
+  margin-top: 25px;
+  padding: 15px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
   background-color: var(--color-btn);
 }
 /*# sourceMappingURL=main.css.map */
