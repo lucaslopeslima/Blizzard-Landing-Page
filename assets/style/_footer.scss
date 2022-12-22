@@ -3,17 +3,18 @@
     height: 80vh;
     padding-bottom: 100px;
     padding-top: 100px;
+    background-image: url('../img/footer-background.png');
     .footer-left-container{
         /* background-color: red; */
         height: 100%;
         width: 50%;
         .battle-net-txt{
             /* background-color: blue; */
-            span{
+            div{
                 color: var(--color-btn);
-                margin-right: 10px;
-                background-color: red;
-                width: 35px;
+                margin-right: 5px;
+                width: 20px;
+                display: inline-block;
             }
             h2{
                 /* background-color: red; */
