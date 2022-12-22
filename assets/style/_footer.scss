@@ -1,7 +1,30 @@
 .footer-container{
     background-color: green;
     height: 80vh;
+    padding-bottom: 100px;
+    padding-top: 100px;
     .footer-left-container{
         background-color: red;
+        height: 100%;
+        width: 50%;
+        .battle-net-txt{
+            background-color: blue;
+            h2{
+                background-color: red;
+                width: 200px;
+                font-size: 2rem;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            p{
+                margin-bottom: 15px;
+                color: #a1a1a1;
+            }
+        }
+        .footer-btn{
+            width: 150px;
+            height: 80px;
+            background-color: var(--color-btn);
+        }
     }
 }
