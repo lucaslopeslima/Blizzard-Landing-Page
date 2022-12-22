@@ -1,13 +1,16 @@
 .footer-container{
-    /* background-color: green; */
     height: 80vh;
     padding-bottom: 100px;
     padding-top: 100px;
     background-image: url('../img/footer-background.png');
+    display: flex;
     .footer-left-container{
         /* background-color: red; */
         height: 100%;
-        width: 50%;
+        width: 100%;
+        background-image: url('../img/ilustrations/app.png');
+        background-repeat: no-repeat;
+        background-position: right;
         .battle-net-txt{
             /* background-color: blue; */
             div{
@@ -41,5 +44,10 @@
                 margin-left: 15px;
             }
         }
+    }
+    .footer-right-container{
+        display: none;
+    background-color: green;
+        width: 50%;
     }
 }
