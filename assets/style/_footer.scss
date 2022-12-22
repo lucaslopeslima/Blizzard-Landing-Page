@@ -1,16 +1,22 @@
 .footer-container{
-    background-color: green;
+    /* background-color: green; */
     height: 80vh;
     padding-bottom: 100px;
     padding-top: 100px;
     .footer-left-container{
-        background-color: red;
+        /* background-color: red; */
         height: 100%;
         width: 50%;
         .battle-net-txt{
-            background-color: blue;
-            h2{
+            /* background-color: blue; */
+            span{
+                color: var(--color-btn);
+                margin-right: 10px;
                 background-color: red;
+                width: 35px;
+            }
+            h2{
+                /* background-color: red; */
                 width: 200px;
                 font-size: 2rem;
                 margin-top: 20px;
@@ -30,6 +36,9 @@
             border-radius: 5px;
             cursor: pointer;
             background-color: var(--color-btn);
+            span{
+                margin-left: 15px;
+            }
         }
     }
 }

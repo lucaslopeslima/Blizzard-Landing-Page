@@ -501,24 +501,31 @@ header .header-progress-bar {
 }
 
 .footer-container {
-  background-color: green;
+  /* background-color: green; */
   height: 80vh;
   padding-bottom: 100px;
   padding-top: 100px;
 }
 
 .footer-container .footer-left-container {
-  background-color: red;
+  /* background-color: red; */
   height: 100%;
   width: 50%;
 }
 
 .footer-container .footer-left-container .battle-net-txt {
-  background-color: blue;
+  /* background-color: blue; */
+}
+
+.footer-container .footer-left-container .battle-net-txt span {
+  color: var(--color-btn);
+  margin-right: 10px;
+  background-color: red;
+  width: 35px;
 }
 
 .footer-container .footer-left-container .battle-net-txt h2 {
-  background-color: red;
+  /* background-color: red; */
   width: 200px;
   font-size: 2rem;
   margin-top: 20px;
@@ -543,5 +550,9 @@ header .header-progress-bar {
   border-radius: 5px;
   cursor: pointer;
   background-color: var(--color-btn);
+}
+
+.footer-container .footer-left-container .footer-btn span {
+  margin-left: 15px;
 }
 /*# sourceMappingURL=main.css.map */
