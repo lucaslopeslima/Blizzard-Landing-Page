@@ -509,6 +509,7 @@ header .header-progress-bar {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  overflow: hidden;
 }
 
 .footer-container .footer-left-container {
@@ -518,6 +519,7 @@ header .header-progress-bar {
 
 .footer-container .footer-left-container .battle-net-txt {
   /* background-color: blue; */
+  color: #a1a1a1;
 }
 
 .footer-container .footer-left-container .battle-net-txt div {
@@ -533,11 +535,11 @@ header .header-progress-bar {
   font-size: 2rem;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: white;
 }
 
 .footer-container .footer-left-container .battle-net-txt p {
   margin-bottom: 15px;
-  color: #a1a1a1;
 }
 
 .footer-container .footer-left-container .footer-btn {
@@ -553,10 +555,36 @@ header .header-progress-bar {
   border-radius: 5px;
   cursor: pointer;
   background-color: var(--color-btn);
+  margin-bottom: 25px;
 }
 
 .footer-container .footer-left-container .footer-btn span {
   margin-left: 15px;
+}
+
+.footer-container .footer-left-container .footer-misc {
+  width: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-container .footer-left-container .footer-misc div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3rem;
+}
+
+.footer-container .footer-left-container .footer-misc p {
+  margin-left: 15px;
+}
+
+.footer-container .footer-left-container .footer-misc p span {
+  text-decoration: underline;
 }
 
 .footer-container .footer-right-container {
@@ -570,7 +598,8 @@ header .header-progress-bar {
   position: absolute;
   top: 0;
   right: 0;
-  -webkit-transform: translateY(-30px);
-          transform: translateY(-30px);
+  -webkit-transform: translateY(-50px) translatex(120px);
+          transform: translateY(-50px) translatex(120px);
+  /* transform: translatex(100px); */
 }
 /*# sourceMappingURL=main.css.map */
