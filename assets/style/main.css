@@ -508,15 +508,12 @@ header .header-progress-bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
 .footer-container .footer-left-container {
-  /* background-color: red; */
   height: 100%;
-  width: 100%;
-  background-image: url("../img/ilustrations/app.png");
-  background-repeat: no-repeat;
-  background-position: right;
+  width: 30%;
 }
 
 .footer-container .footer-left-container .battle-net-txt {
@@ -563,8 +560,17 @@ header .header-progress-bar {
 }
 
 .footer-container .footer-right-container {
-  display: none;
-  background-color: green;
-  width: 50%;
+  /* background-color: green; */
+  width: 70%;
+  height: 120%;
+  background-image: url("../img/ilustrations/app.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
 }
 /*# sourceMappingURL=main.css.map */
