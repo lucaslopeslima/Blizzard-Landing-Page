@@ -4,13 +4,11 @@
     padding-top: 100px;
     background-image: url('../img/footer-background.png');
     display: flex;
+    position: relative;
     .footer-left-container{
-        /* background-color: red; */
         height: 100%;
-        width: 100%;
-        background-image: url('../img/ilustrations/app.png');
-        background-repeat: no-repeat;
-        background-position: right;
+        width: 30%;
+        
         .battle-net-txt{
             /* background-color: blue; */
             div{
@@ -46,8 +44,16 @@
         }
     }
     .footer-right-container{
-        display: none;
-    background-color: green;
-        width: 50%;
+        /* background-color: green; */
+        width: 70%;
+        height: 120%;
+        background-image: url('../img/ilustrations/app.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translateY(-30px);
     }
 }
