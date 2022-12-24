@@ -383,7 +383,7 @@ header .header-progress-bar {
 }
 
 .dropdown-content .dropdown-content-container .drowdown-items .dropdown-jogos-item {
-  /* background-color: green; */
+  background-color: green;
   cursor: pointer;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 15%;
