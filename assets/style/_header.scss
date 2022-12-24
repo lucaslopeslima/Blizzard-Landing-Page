@@ -246,7 +246,7 @@ header{
         position: relative;
         padding-top: 80px;
         .drowdown-items{
-            /* background-color: green; */
+            background-color: yellow;
             /* margin: 0 20px; */
             width: 100vw;
             height: 100%;
@@ -256,22 +256,34 @@ header{
             padding-top: 15px;
             padding-bottom: 70px;
             .dropdown-jogos-item{
-                /* background-color: red; */
-                width: 100px;
+                background-color: green;
+                width: 150px;
                 height: 70px;
+                height: fit-content;
                 color: #9d9d9d;
                 text-align: center;
-                margin-left: 200px;
-                margin-top: -40px;
+                /* margin-left: 150px;
+                margin-top: -40px; */
                 //flex-wrap: wrap;
                 img{
                     width: 100%;
                     height: auto;
+                    transition: var(--transition);
                 }
                 p{
                     /* background-color: red; */
                     width: 100%;
                     font-size: 1.3rem;
+                    text-align: center;
+                    transition: var(--transition);
+                }
+                &:hover{
+                    img{
+                        transform: scale(1.15);
+                    }
+                    p{
+                        color: white;
+                    }
                 }
             }
         }
