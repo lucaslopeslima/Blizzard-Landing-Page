@@ -349,12 +349,15 @@ header .header-progress-bar {
 }
 
 .dropdown-content .dropdown-content-container .drowdown-items {
-  background-color: yellow;
+  /* background-color: yellow; */
   /* margin: 0 20px; */
   width: 100vw;
   height: 100%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 50px;
@@ -363,27 +366,29 @@ header .header-progress-bar {
 }
 
 .dropdown-content .dropdown-content-container .drowdown-items .dropdown-jogos-item {
-  background-color: green;
-  width: 150px;
+  /* background-color: green; */
+  width: 200px;
   height: 70px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  height: 200px;
   color: #9d9d9d;
   text-align: center;
-  /* margin-left: 150px;
-                margin-top: -40px; */
+  margin-left: 100px;
+  margin-top: -40px;
 }
 
 .dropdown-content .dropdown-content-container .drowdown-items .dropdown-jogos-item img {
-  width: 100%;
-  height: auto;
+  /* width: 100%;
+                    height: auto; */
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
 .dropdown-content .dropdown-content-container .drowdown-items .dropdown-jogos-item p {
   /* background-color: red; */
+  margin-top: 15px;
   width: 100%;
   font-size: 1.3rem;
   text-align: center;
