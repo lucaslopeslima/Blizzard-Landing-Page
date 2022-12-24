@@ -30,3 +30,6 @@ Adicionais:
 [] btn hover
 [] transition animation fix
 [] gif animation border blur & shadow blur
+ - Otimização
+    [] png to webp
+    [] gif to webp
