@@ -383,7 +383,7 @@ header .header-progress-bar {
 }
 
 .dropdown-content .dropdown-content-container .drowdown-items .dropdown-jogos-item {
-  background-color: green;
+  /* background-color: green; */
   cursor: pointer;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 15%;
@@ -402,12 +402,15 @@ header .header-progress-bar {
                     height: auto; */
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  -webkit-filter: grayscale(0.4);
+          filter: grayscale(0.4);
 }
 
 .dropdown-content .dropdown-content-container .drowdown-items .dropdown-jogos-item p {
   /* background-color: red; */
+  margin: 0 auto;
   margin-top: 15px;
-  width: 100%;
+  width: 70%;
   font-size: 1.3rem;
   text-align: center;
   -webkit-transition: var(--transition);
@@ -415,8 +418,10 @@ header .header-progress-bar {
 }
 
 .dropdown-content .dropdown-content-container .drowdown-items .dropdown-jogos-item:hover img {
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
 }
 
 .dropdown-content .dropdown-content-container .drowdown-items .dropdown-jogos-item:hover p {
