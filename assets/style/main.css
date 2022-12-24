@@ -324,26 +324,23 @@ header .header-progress-bar {
 }
 
 .dropdown-content {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   -webkit-transition: var(--transition);
   transition: var(--transition);
   display: none;
   position: absolute;
-  left: 0;
   top: 0;
   background: #040406;
   background: -webkit-gradient(linear, left top, left bottom, from(var(--color-banner-bg1)), to(var(--color-banner-bg2)));
   background: linear-gradient(to bottom, var(--color-banner-bg1) 0%, var(--color-banner-bg2) 100%);
-  min-width: 960px;
-  min-width: 100%;
+  width: 100%;
   height: 800px;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 0;
 }
 
 .dropdown-content .dropdown-content-container {
-  width: 100vw;
+  background-color: blue;
   height: 100%;
   position: relative;
   padding-top: 80px;
@@ -360,13 +357,13 @@ header .header-progress-bar {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 50px;
-  padding-top: 15px;
-  padding-bottom: 70px;
 }
 
 .dropdown-content .dropdown-content-container .drowdown-items .dropdown-jogos-item {
-  /* background-color: green; */
+  background-color: green;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 15%;
+          flex: 1 1 15%;
   width: 200px;
   height: 70px;
   height: -webkit-fit-content;
@@ -375,7 +372,7 @@ header .header-progress-bar {
   height: 200px;
   color: #9d9d9d;
   text-align: center;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   margin-top: -40px;
 }
 
