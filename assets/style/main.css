@@ -95,16 +95,18 @@ header .top-menu .top-menu-content .top-links .dropdown .dropbtn {
   border: none;
 }
 
+header .top-menu .top-menu-content .top-links .dropdown .dropbtn i {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
 header .top-menu .top-menu-content .top-links .dropdown .dropbtn .arrow-color-active {
   color: var(--color-btn);
 }
 
 header .top-menu .top-menu-content .top-links .dropdown .dropbtn .arrow-color-active i {
-  /* transform: rotate(180deg); */
   -webkit-transform: rotate3d(1, 0, 0, 180deg);
           transform: rotate3d(1, 0, 0, 180deg);
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
 }
 
 header .top-menu .top-menu-content .top-btn-wrap {
