@@ -36,12 +36,14 @@ header{
                         padding: 16px;
                         font-size: 16px;
                         border: none;
+                        i{
+                            transition: var(--transition);
+                        }
+                        
                         .arrow-color-active{
                             color: var(--color-btn);
                             i{
-                                /* transform: rotate(180deg); */
                                 transform: rotate3d(1, 0, 0, 180deg);
-                                transition: var(--transition);
                             }
                         }
                     }
