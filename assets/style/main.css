@@ -128,6 +128,14 @@ header .top-menu .top-menu-content .top-btn-wrap .top-btn {
 header .top-menu .top-menu-content .top-btn-wrap .btn-criar-acc {
   background-color: #ffffff00;
   border: 1px solid white;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+header .top-menu .top-menu-content .top-btn-wrap .btn-criar-acc:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
 }
 
 header .top-menu .top-menu-content .top-btn-wrap .btn-logar {
