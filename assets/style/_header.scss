@@ -63,6 +63,12 @@ header{
                 .btn-criar-acc{
                     background-color: #ffffff00;
                     border: 1px solid white;
+                    transition: var(--transition);
+                    &:hover{
+                        border: 1px solid black;
+                        background-color: white;
+                        color: black;
+                    }
                 }
                 .btn-logar{
                     background-color: var(--color-btn);
