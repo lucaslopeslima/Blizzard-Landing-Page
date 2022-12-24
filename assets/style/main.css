@@ -2,6 +2,7 @@
   --bg-color: black;
   --font-color: white;
   --color-btn: #00AEFF;
+  --color-btn-hover:#29bbff;
   --color-banner-bg1: #0F1218;
   --color-banner-bg2: #060608;
   --color-banner-dropdown-footer:#0F1114;
@@ -140,6 +141,12 @@ header .top-menu .top-menu-content .top-btn-wrap .btn-criar-acc:hover {
 
 header .top-menu .top-menu-content .top-btn-wrap .btn-logar {
   background-color: var(--color-btn);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+header .top-menu .top-menu-content .top-btn-wrap .btn-logar:hover {
+  background-color: var(--color-btn-hover);
 }
 
 header .top-menu-bg {
@@ -195,6 +202,12 @@ header .content-wrap .presentation .presetation-btn {
   border-radius: 5px;
   cursor: pointer;
   background-color: var(--color-btn);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+header .content-wrap .presentation .presetation-btn:hover {
+  background-color: var(--color-btn-hover);
 }
 
 header .content-wrap .presentation-gif .presentation-gif-logo {
@@ -567,8 +580,14 @@ header .header-progress-bar {
           justify-content: center;
   border-radius: 5px;
   cursor: pointer;
-  background-color: var(--color-btn);
   margin-bottom: 25px;
+  background-color: var(--color-btn);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.footer-container .footer-left-container .footer-btn:hover {
+  background-color: var(--color-btn-hover);
 }
 
 .footer-container .footer-left-container .footer-btn span {
