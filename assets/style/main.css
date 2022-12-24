@@ -480,9 +480,12 @@ header .header-progress-bar {
   /* background-color: blue; */
 }
 
-.jogos-exclusivos .main-content .jogos-item:hover .imagem-exc {
+.jogos-exclusivos .main-content .jogos-item .imagem-exc {
   -webkit-transition: var(--transition);
   transition: var(--transition);
+}
+
+.jogos-exclusivos .main-content .jogos-item:hover .imagem-exc {
   scale: 1.1;
 }
 

@@ -64,9 +64,11 @@
                 width: 100%;
                 /* background-color: blue; */
             }
+            .imagem-exc{
+                transition: var(--transition);
+            }
             &:hover{
                 .imagem-exc{
-                    transition: var(--transition);
                     scale: 1.1;
                 }
             }
