@@ -1,12 +1,31 @@
-@media (max-width: 1920px){
-
+@media (min-width: 1920px){
+    
 }
 @media (max-width: 1440px){
-
+    .padding-standard{
+        padding: 0 10vw 0 10vw;
+    }
+    .presentation{
+        margin-left: 100px;
+        h1{
+            font-size: 4rem !important;
+            width: 600px !important;
+            margin-bottom: 10px;
+        }
+    }
+    
+    .footer-right-container{
+        width: 30vw;
+        margin-left: 60%;
+    }
 }
 @media (max-width: 768px){
-
+    .padding-standard{
+        padding: 0 5vw 0 5vw;
+    }
 }
 @media (max-width: 375px){
-
+    .padding-standard{
+        padding: 0 2vw 0 2vw;
+    }
 }

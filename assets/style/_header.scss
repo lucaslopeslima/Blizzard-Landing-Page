@@ -5,7 +5,7 @@ header{
     transition: var(--transition);
     .top-menu{
         height: 80px;
-        border-bottom: 1px solid gray;
+        //border-bottom: 1px solid gray;
         position: relative;
         
         .top-menu-content{
@@ -78,6 +78,17 @@ header{
                     }
                 }
             }
+        }
+    }
+    .top-menu-line{
+        height: 1px;
+        width: 100%;
+        background-color: gray;
+        .top-menu-line-blue{
+            height: 250%;
+            width: 50px;
+            background-color: var(--color-btn);
+            transform: translateY(-50%);
         }
     }
     .top-menu-bg{
