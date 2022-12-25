@@ -24,12 +24,13 @@ Nível Difícil:
 [x] Deverá ser executado um gif do jogo quando ocorrer o evento de hover ou click na capa do trailer. (baixar gifs)
 
 Adicionais:
-[] Open Graph
+[x] Open Graph
 [x] gif thum onHover : modal com play. onClick: innerHTML to gif
 [x] gif onHover : modal com STOP. onClick: innerHTML to gif thumb
-[] btn hover
-[] transition animation fix
+[x] btn hover
+[x] transition animation fix
 [] gif animation border blur & shadow blur
+[] scrollbar bg transparent
  - Otimização
     [] png to webp
     [] gif to webp
