@@ -576,6 +576,7 @@ header .header-progress-bar {
   padding-bottom: 100px;
   padding-top: 100px;
   background-image: url("../img/footer-background.png");
+  background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -665,9 +666,9 @@ header .header-progress-bar {
 }
 
 .footer-container .footer-right-container {
-  /* background-color: green; */
+  background-color: green;
   width: 70%;
-  height: 120%;
+  height: 70%;
   background-image: url("../img/ilustrations/app.png");
   background-repeat: no-repeat;
   background-position: right;
