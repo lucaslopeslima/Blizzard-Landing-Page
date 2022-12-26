@@ -63,6 +63,9 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 85vh;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
@@ -197,9 +200,18 @@ header .content-wrap {
 
 header .content-wrap .left-menu .left-menu-item {
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 25px;
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 header .content-wrap .left-menu .left-menu-active {
@@ -208,9 +220,18 @@ header .content-wrap .left-menu .left-menu-active {
 }
 
 header .content-wrap .left-menu .left-menu-item-disabled {
-  margin-top: 10px;
+  margin-top: 25px;
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 header .content-wrap .presentation {
@@ -219,7 +240,7 @@ header .content-wrap .presentation {
 
 header .content-wrap .presentation h1 {
   font-size: 5rem;
-  width: 800px;
+  width: 700px;
   margin-bottom: 10px;
 }
 
@@ -242,6 +263,11 @@ header .content-wrap .presentation .presetation-btn {
 
 header .content-wrap .presentation .presetation-btn:hover {
   background-color: var(--color-btn-hover);
+}
+
+header .content-wrap .presentation-gif {
+  /* position: absolute;
+            right: 0; */
 }
 
 header .content-wrap .presentation-gif .presentation-gif-logo {
@@ -705,19 +731,25 @@ header .header-progress-bar {
   background-position-y: bottom;
 }
 
+@media (max-width: 1920px) {
+  .padding-standard {
+    padding: 0 15vw 0 15vw;
+  }
+}
+
 @media (max-width: 1440px) {
   .padding-standard {
     padding: 0 10vw 0 10vw;
   }
-  .presentation {
+  header .presentation {
     margin-left: 100px;
   }
-  .presentation h1 {
+  header .presentation h1 {
     font-size: 4rem !important;
     width: 600px !important;
     margin-bottom: 10px;
   }
-  .footer-right-container {
+  footer .footer-right-container {
     width: 30vw;
     margin-left: 60%;
   }
@@ -726,6 +758,56 @@ header .header-progress-bar {
 @media (max-width: 768px) {
   .padding-standard {
     padding: 0 5vw 0 5vw;
+  }
+  header .top-links {
+    display: none;
+  }
+  header .content-wrap {
+    position: relative !important;
+  }
+  header .content-wrap .presentation-gif {
+    position: absolute;
+    right: 5vw;
+  }
+  header .content-wrap .presentation-gif p {
+    display: none;
+  }
+  header .content-wrap .presentation-gif .presentation-gif-logo {
+    margin-bottom: 300px;
+  }
+  header .presentation-content-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  header .presentation-content-wrap .left-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  header .presentation-content-wrap .left-menu .left-menu-item {
+    margin-left: 15px !important;
+  }
+  header .presentation-content-wrap .left-menu .left-menu-item-disabled {
+    margin-left: 15px !important;
+  }
+  header .presentation-content-wrap .presentation {
+    margin-left: 0 !important;
+  }
+  header .presentation-content-wrap .presentation h1 {
+    font-size: 3.5rem !important;
+    width: 500px !important;
+    margin-bottom: 10px;
   }
 }
 
