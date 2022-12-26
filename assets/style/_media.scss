@@ -2,6 +2,11 @@
     .padding-standard{
         padding: 0 15vw 0 15vw;
     }
+    footer{
+        .footer-container{
+            padding-top: 100px;
+        }
+    }
 }
 @media (max-width: 1440px){
     .padding-standard{

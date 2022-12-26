@@ -40,14 +40,15 @@
         justify-content: space-between;
         .jogos-item{
             /* background-color: red; */
-            width: 300px;
+            //width: 300px;
+            width: 20%;
             height: min-content;
             box-sizing: content-box;
             padding: 20px;
             margin-bottom: 25px;
             cursor: pointer;
             .img-wrap{
-                height: 413px;
+                //height: 413px;
                 position: relative;
                 overflow: hidden;
                 /* background-color: green; */
@@ -75,7 +76,7 @@
         }
         .jogos-item-all{
             height: 100%;
-            height: 414px;
+            //height: 414px;
             border: 1px solid white;
             justify-content: center;
             text-align: center;
