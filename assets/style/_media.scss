@@ -17,9 +17,7 @@
             }
         }   
     }
-    main{
-        
-    }
+    
     footer{
      .footer-right-container{
         width: 30vw;
@@ -35,6 +33,20 @@
     header{
         .top-links{
             display: none;
+        }
+        .top-btn-wrap{
+            .menu-mobile{
+                display: inline-block !important;
+                width: 50px;
+                text-align: center;
+                height: 100%;
+                margin-left: 100px;
+                font-size: 2rem;
+                cursor: pointer;
+            }
+            .menu-mobile-active{
+                color: var(--color-btn)
+            }
         }
         .content-wrap{
             position: relative !important;
