@@ -1,6 +1,8 @@
 footer{
     position: relative;
     .footer-right-container{
+        background-color: green;
+        transform: translate(100px);
         width: 65vw;
         height: 100%;
         background-image: url('../img/ilustrations/app.png');
@@ -13,10 +15,12 @@ footer{
         .app-mini{
             background-image: url('../img/ilustrations/app-mini.png');
             background-repeat: no-repeat;
+            position: absolute;
+            right: 0;
             width: 100%;
             height: 100%;
-            background-position-x: right;
-            background-position-y: bottom;
+            //background-position-x: right;
+            //background-position-y: bottom;
         }
 
     }
