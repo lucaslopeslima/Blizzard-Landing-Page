@@ -586,8 +586,9 @@ header .header-progress-bar {
 }
 
 .jogos-exclusivos .main-content .jogos-item .img-wrap .jogos-exc-logo {
+  width: 70%;
   margin: 0 auto;
-  margin-top: -140px;
+  margin-top: -160px;
   position: absolute;
   left: 0;
   right: 0;
@@ -773,6 +774,9 @@ header .header-progress-bar {
     height: -moz-fit-content;
     height: fit-content;
   }
+  main .jogos-exc-logo {
+    margin-top: -130px !important;
+  }
   footer .footer-right-container {
     width: 30vw;
     margin-left: 60%;
@@ -851,6 +855,9 @@ header .header-progress-bar {
     height: -moz-fit-content;
     height: fit-content;
   }
+  main .jogos-exc-logo {
+    margin-top: -110px !important;
+  }
 }
 
 @media (max-width: 375px) {
@@ -862,6 +869,9 @@ header .header-progress-bar {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+  }
+  main .jogos-exc-logo {
+    margin-top: -100px !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
