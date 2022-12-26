@@ -51,7 +51,7 @@ function criarJogosExclusivos(imagem,logo, titulo, categoria){
     jogosExclusivos.innerHTML +=
     `<div class="jogos-item">
         <div class="img-wrap">
-            <img class="imagem-exc" src="${imagem}" alt="${imagem}">
+        <div><img class="imagem-exc" src="${imagem}" alt="${imagem}"></div>
             <img class="jogos-exc-logo" src="${logo}" alt="${logo}">
         </div>
         <div class="jogos-text">

@@ -570,12 +570,19 @@ header .header-progress-bar {
   padding: 20px;
   margin-bottom: 25px;
   cursor: pointer;
+  /* .jogos-exc-logo{
+                position: relative;
+                z-index: 2;
+            } */
 }
 
 .jogos-exclusivos .main-content .jogos-item .img-wrap {
   position: relative;
   overflow: hidden;
   /* background-color: green; */
+  /* img{
+                    width: 100%;
+                } */
 }
 
 .jogos-exclusivos .main-content .jogos-item .img-wrap .jogos-exc-logo {
@@ -586,7 +593,7 @@ header .header-progress-bar {
   right: 0;
 }
 
-.jogos-exclusivos .main-content .jogos-item .img-wrap img {
+.jogos-exclusivos .main-content .jogos-item .img-wrap div img {
   width: 100%;
 }
 
@@ -605,6 +612,7 @@ header .header-progress-bar {
 }
 
 .jogos-exclusivos .main-content .jogos-item-all {
+  background-color: red;
   height: 100%;
   border: 1px solid white;
   -webkit-box-pack: center;
