@@ -2,6 +2,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 85vh;
+    min-height: fit-content;
     transition: var(--transition);
     .top-menu{
         height: 80px;
@@ -101,22 +102,28 @@ header{
         .left-menu{
             .left-menu-item{
                 cursor: pointer;
-                margin-top: 10px;
+                margin-top: 25px;
                 filter: grayscale(1);
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 
             }.left-menu-active{
                 filter: grayscale(0);
             }
             .left-menu-item-disabled{
-                margin-top: 10px;
+                margin-top: 25px;
                 filter: grayscale(1);
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
         }
         .presentation{
             margin-left: 100px;
             h1{
                 font-size: 5rem;
-                width: 800px;
+                width: 700px;
                 margin-bottom: 10px;
             }
             .presetation-btn{
@@ -136,6 +143,8 @@ header{
             }
         }
         .presentation-gif{
+            /* position: absolute;
+            right: 0; */
             .presentation-gif-logo{
                 /* background-color: black; */
                 width: 100%;
