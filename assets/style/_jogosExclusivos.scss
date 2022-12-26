@@ -41,7 +41,8 @@
         .jogos-item{
             /* background-color: red; */
             //width: 300px;
-            width: 20%;
+            width: 290px;
+            //width: 20%;
             height: min-content;
             box-sizing: content-box;
             padding: 20px;
@@ -58,6 +59,9 @@
                     position: absolute;
                     left: 0;
                     right: 0;
+                }
+                img{
+                    width: 100%;
                 }
             }
             

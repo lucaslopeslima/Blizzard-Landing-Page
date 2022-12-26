@@ -22,6 +22,12 @@
             }
         }   
     }
+    main{
+        .jogos-item{
+            width: 240px !important;
+            height: fit-content;
+        }
+    }
     
     footer{
      .footer-right-container{
@@ -91,10 +97,22 @@
             }
         }
     }
+    main{
+        .jogos-item{
+            width: 190px !important;
+            height: fit-content;
+        }
+    }
     
 }
 @media (max-width: 375px){
     .padding-standard{
         padding: 0 2vw 0 2vw;
+    }
+    main{
+        .jogos-item{
+            width: 140px !important;
+            height: fit-content;
+        }
     }
 }
