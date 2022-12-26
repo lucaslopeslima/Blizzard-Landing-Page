@@ -62,6 +62,7 @@ body {
 header {
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 85vh;
   min-height: -webkit-fit-content;
   min-height: -moz-fit-content;
@@ -170,6 +171,10 @@ header .top-menu .top-menu-content .top-btn-wrap .btn-logar {
 
 header .top-menu .top-menu-content .top-btn-wrap .btn-logar:hover {
   background-color: var(--color-btn-hover);
+}
+
+header .top-menu .top-menu-content .top-btn-wrap .menu-mobile {
+  display: none;
 }
 
 header .top-menu-line {
@@ -761,6 +766,18 @@ header .header-progress-bar {
   }
   header .top-links {
     display: none;
+  }
+  header .top-btn-wrap .menu-mobile {
+    display: inline-block !important;
+    width: 50px;
+    text-align: center;
+    height: 100%;
+    margin-left: 100px;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  header .top-btn-wrap .menu-mobile-active {
+    color: var(--color-btn);
   }
   header .content-wrap {
     position: relative !important;

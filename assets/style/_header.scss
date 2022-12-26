@@ -1,6 +1,7 @@
 header{
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 85vh;
     min-height: fit-content;
     transition: var(--transition);
@@ -77,6 +78,9 @@ header{
                     &:hover{
                         background-color: var(--color-btn-hover);
                     }
+                }
+                .menu-mobile{
+                    display: none;
                 }
             }
         }
