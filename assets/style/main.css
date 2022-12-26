@@ -626,6 +626,30 @@ header .header-progress-bar {
   margin-top: 25px;
 }
 
+footer {
+  position: relative;
+}
+
+footer .footer-right-container {
+  width: 65vw;
+  height: 100%;
+  background-image: url("../img/ilustrations/app.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+footer .footer-right-container .app-mini {
+  background-image: url("../img/ilustrations/app-mini.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
 .footer-container {
   height: 80vh;
   padding-bottom: 100px;
@@ -636,9 +660,7 @@ header .header-progress-bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
   overflow: hidden;
-  background-color: red;
 }
 
 .footer-container .footer-left-container {
@@ -724,18 +746,14 @@ header .header-progress-bar {
 }
 
 .footer-container .footer-right-container {
-  /* background-color: green; */
   width: 65vw;
   height: 100%;
   background-image: url("../img/ilustrations/app.png");
   background-repeat: no-repeat;
   background-position: right;
-  /* background-size: contain; */
   position: absolute;
   top: 0;
   right: 5vw;
-  /* transform: translateY(-50px) translatex(120px); */
-  /* transform: translatex(100px); */
 }
 
 .footer-container .footer-right-container .app-mini {
@@ -781,8 +799,24 @@ header .header-progress-bar {
     height: 330px !important;
   }
   footer .footer-right-container {
-    width: 30vw;
-    margin-left: 60%;
+    width: 65vw !important;
+    background-image: url("../img/ilustrations/app.png");
+    background-repeat: no-repeat;
+    background-position: left !important;
+    /* background-size: contain; */
+    position: absolute;
+    top: 0;
+    right: 5vw;
+    /* transform: translateY(-50px) translatex(120px); */
+    /* transform: translatex(100px); */
+  }
+  footer .footer-right-container .app-mini {
+    background-image: url("../img/ilustrations/app-mini.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position-x: right;
+    background-position-y: bottom;
   }
 }
 
@@ -863,6 +897,16 @@ header .header-progress-bar {
   }
   main .jogos-item-all {
     height: 261px !important;
+  }
+  footer .footer-right-container {
+    -webkit-transform: translate(100px) !important;
+            transform: translate(100px) !important;
+  }
+  footer .app-mini {
+    width: 100%;
+    height: 100%;
+    background-position-x: right;
+    background-position-y: bottom;
   }
 }
 
