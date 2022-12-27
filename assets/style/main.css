@@ -64,9 +64,9 @@ header {
   background-size: cover;
   background-position: center;
   height: 85vh;
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
+  min-height: min-content;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
@@ -562,6 +562,7 @@ header .header-progress-bar {
 .jogos-exclusivos .main-content .jogos-item {
   /* background-color: red; */
   width: 290px;
+  width: 260px;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
@@ -580,9 +581,6 @@ header .header-progress-bar {
   position: relative;
   overflow: hidden;
   /* background-color: green; */
-  /* img{
-                    width: 100%;
-                } */
 }
 
 .jogos-exclusivos .main-content .jogos-item .img-wrap .jogos-exc-logo {
@@ -614,7 +612,7 @@ header .header-progress-bar {
 
 .jogos-exclusivos .main-content .jogos-item-all {
   height: 100%;
-  height: 398px;
+  height: 357.73px;
   border: 1px solid white;
   -webkit-box-pack: center;
       -ms-flex-pack: center;

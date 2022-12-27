@@ -3,7 +3,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 85vh;
-    min-height: fit-content;
+    min-height: min-content;
     transition: var(--transition);
     .top-menu{
         height: 80px;
