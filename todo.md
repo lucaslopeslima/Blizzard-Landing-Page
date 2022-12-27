@@ -8,7 +8,7 @@ Nível Fácil:
 [x] Criar as seções: Menu, Banner hero, Footer.
 [x] O texto e o ícone do botão “Baixar jogo” devem ser alterados conforme o sistema operacional do usuário que estiver acessando a página. (material de apoio) (componente no figma)
 [x] Aplicar efeito de hover nas opções do menu de navegação.
-[] Aplicar responsividade para as seguintes resoluções: 1920px, 1440px, 768px e 375px.
+[x] Aplicar responsividade para as seguintes resoluções: 1920px, 1440px, 768px e 375px.
 
 Nível Médio:
 [x] Todos os requisitos do nivel fácil.
