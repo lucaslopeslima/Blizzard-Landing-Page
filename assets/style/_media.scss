@@ -34,16 +34,16 @@
             height: 330px !important;
         }
     }
-    
     footer{
         .footer-right-container{
-            width: 65vw !important;
+            width: 65vw;
             background-image: url('../img/ilustrations/app.png');
             background-repeat: no-repeat;
             background-position: left !important;
             position: absolute;
             top: 0;
-            right: 5vw;
+            //right: 5vw;
+            transform: translate(100px) !important;
             .app-mini{
                 background-image: url('../img/ilustrations/app-mini.png');
                 background-repeat: no-repeat;
@@ -51,6 +51,7 @@
                 height: 100%;
                 background-position-x: right;
                 background-position-y: bottom;
+                transform: translate(100px) !important;
             }
     
         }
@@ -130,15 +131,28 @@
         }
     }
     footer{
-        .footer-right-container{
-            transform: translate(100px) !important;
+        .footer-left-container{
+            width: 50vw !important;
         }
-        .app-mini{
-            
-            width: 100%;
-            height: 100%;
-            background-position-x: right;
-            background-position-y: bottom;
+        .footer-right-container{
+            width: 65vw;
+            background-image: url('../img/ilustrations/app.png');
+            background-repeat: no-repeat;
+            background-position: left !important;
+            position: absolute;
+            top: 0;
+            //right: 5vw;
+            transform: translate(100px) !important;
+            .app-mini{
+                background-image: url('../img/ilustrations/app-mini.png');
+                background-repeat: no-repeat;
+                width: 160%;
+                height: 100%;
+                background-position-x: right;
+                background-position-y: bottom;
+                transform: translate(200px) !important;
+            }
+    
         }
     }
     
