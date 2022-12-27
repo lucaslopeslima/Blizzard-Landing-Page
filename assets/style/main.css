@@ -63,6 +63,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  width: 100vw;
   height: 85vh;
   min-height: -webkit-min-content;
   min-height: -moz-min-content;
@@ -945,6 +946,12 @@ footer .footer-right-container .app-mini {
     width: 90% !important;
     font-size: 3rem !important;
     background-color: red;
+  }
+  main .icons, main .games {
+    display: none;
+  }
+  main .jogos-exc {
+    font-size: 1rem !important;
   }
   main .jogos-item {
     width: 140px !important;

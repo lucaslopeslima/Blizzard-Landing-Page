@@ -181,6 +181,12 @@
         
     }
     main{
+        .icons, .games{
+            display: none;
+        }
+        .jogos-exc{
+            font-size: 1rem !important;
+        }
         .jogos-item{
             width: 140px !important;
             height: fit-content;
