@@ -211,4 +211,23 @@
             display: none;
         }
     }
+    footer{
+        height: fit-content !important;
+        .footer-container{
+            height: min-content;
+            padding-bottom: 25px;
+            padding-left: 40px;
+            .footer-left-container{
+                width: 95% !important;
+                height: fit-content;
+            }
+
+        }
+        .footer-right-container{
+            display: none !important;
+            width: 100%;
+            height: 550px;
+            margin-top: 550px;
+        }
+    }
 }
