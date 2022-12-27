@@ -947,6 +947,10 @@ footer .footer-right-container .app-mini {
     font-size: 3rem !important;
     background-color: red;
   }
+  header .header-progress-bar {
+    -webkit-transform: translateY(2700%);
+            transform: translateY(2700%);
+  }
   main .icons, main .games {
     display: none;
   }
@@ -958,12 +962,16 @@ footer .footer-right-container .app-mini {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    margin-bottom: -20px !important;
   }
   main .jogos-exc-logo {
     margin-top: -100px !important;
   }
   main .jogos-item-all {
     height: 192px !important;
+  }
+  main .jogos-text {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */

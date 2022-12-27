@@ -178,6 +178,9 @@
             font-size: 3rem !important;
             background-color: red;
         }
+        .header-progress-bar{
+            transform: translateY(2700%);
+        }
         
     }
     main{
@@ -190,12 +193,16 @@
         .jogos-item{
             width: 140px !important;
             height: fit-content;
+            margin-bottom: -20px !important;
         }
         .jogos-exc-logo{
             margin-top: -100px !important;
         }
         .jogos-item-all{
             height: 192px !important;
+        }
+        .jogos-text{
+            display: none;
         }
     }
 }
