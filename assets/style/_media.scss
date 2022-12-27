@@ -16,8 +16,8 @@
         .presentation{
             margin-left: 100px;
             h1{
-                font-size: 4rem !important;
-                width: 600px !important;
+                font-size: 4rem;
+                width: 600px;
                 margin-bottom: 10px;
             }
         }   
@@ -109,10 +109,10 @@
                 }
             }
             .presentation{
-                margin-left: 0 !important;
+                margin-left: 0;
                 h1{
-                    font-size: 3.5rem !important;
-                    width: 500px !important;
+                    font-size: 3.5rem;
+                    width: 500px;
                     margin-bottom: 10px;
                 }
             }
@@ -161,13 +161,29 @@
     .padding-standard{
         padding: 0 2vw 0 2vw;
     }
+    header{
+        height: 90vh;
+        .top-menu{
+            height: 70px;
+        }
+        .media-top-btn{
+            display: none;
+        }
+        .presentation-gif{
+            display: none;
+        }
+        .banner-title{
+            width: 200px;
+            font-size: 1rem;
+            background-color: red;
+        }
+        
+    }
     main{
         .jogos-item{
             width: 140px !important;
             height: fit-content;
         }
-    }
-    main{
         .jogos-exc-logo{
             margin-top: -100px !important;
         }
