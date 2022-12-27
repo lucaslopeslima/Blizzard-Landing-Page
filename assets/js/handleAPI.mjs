@@ -16,6 +16,9 @@ fetch(url).then((res)=>{
         criarDropdownJogos(element.logo, element.name)
         criarJogosExclusivos(element.image, element.logo, element.name, element.category)
     })
+    /* let imgExc = document.querySelector('.imagem-exc')
+    console.log('imgexec é',imgExc.getBoundingClientRect())
+    console.log('imgexec é',imgExc.clientHeight) */
     jogosExclusivos.innerHTML += 
     `<div class="jogos-item">
         <div class="jogos-item-all flex-center">
