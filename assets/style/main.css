@@ -783,8 +783,8 @@ footer .footer-right-container .app-mini {
     margin-left: 100px;
   }
   header .presentation h1 {
-    font-size: 4rem !important;
-    width: 600px !important;
+    font-size: 4rem;
+    width: 600px;
     margin-bottom: 10px;
   }
   main .jogos-item {
@@ -880,11 +880,11 @@ footer .footer-right-container .app-mini {
     margin-left: 15px !important;
   }
   header .presentation-content-wrap .presentation {
-    margin-left: 0 !important;
+    margin-left: 0;
   }
   header .presentation-content-wrap .presentation h1 {
-    font-size: 3.5rem !important;
-    width: 500px !important;
+    font-size: 3.5rem;
+    width: 500px;
     margin-bottom: 10px;
   }
   main .jogos-item {
@@ -927,6 +927,23 @@ footer .footer-right-container .app-mini {
 @media (max-width: 375px) {
   .padding-standard {
     padding: 0 2vw 0 2vw;
+  }
+  header {
+    height: 90vh;
+  }
+  header .top-menu {
+    height: 70px;
+  }
+  header .media-top-btn {
+    display: none;
+  }
+  header .presentation-gif {
+    display: none;
+  }
+  header .banner-title {
+    width: 200px;
+    font-size: 1rem;
+    background-color: red;
   }
   main .jogos-item {
     width: 140px !important;
