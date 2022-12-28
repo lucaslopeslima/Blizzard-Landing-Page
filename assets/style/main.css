@@ -351,7 +351,7 @@ header .header-progress-bar {
 }
 
 .diabloiv-gif-logo {
-  background-image: url("../img/banner-hero/games/diablo-logo.png");
+  background-image: url("../img/banner-hero/games/diablo-logo.webp");
 }
 
 .heartstone {
@@ -359,7 +359,7 @@ header .header-progress-bar {
 }
 
 .heartstone-gif-logo {
-  background-image: url("../img/banner-hero/games/hearthstone-logo.png");
+  background-image: url("../img/banner-hero/games/hearthstone-logo.webp");
 }
 
 .wow {
@@ -367,7 +367,7 @@ header .header-progress-bar {
 }
 
 .wow-gif-logo {
-  background-image: url("../img/banner-hero/games/wow-logo.png");
+  background-image: url("../img/banner-hero/games/wow-logo.webp");
 }
 
 .header-line {
