@@ -28,7 +28,7 @@ Adicionais:
 [x] btn hover
 [x] transition animation fix
 [] gif animation border blur & shadow blur
-[] scrollbar bg transparent
+[x] scrollbar
  - Otimização
     [x] png to webp
     [] gif to webp
