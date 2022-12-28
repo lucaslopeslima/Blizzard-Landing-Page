@@ -19,7 +19,7 @@ Nível Médio:
 
 Nível Difícil:
 [x] Todos os requisitos do nivel fácil e médio.
-[] Ao clicar no botão Logar do menu de navegação, deverá ser exibido o modal de login. (componente no figma)
+[x] Ao clicar no botão Logar do menu de navegação, deverá ser exibido o modal de login. (componente no figma)
 [x] Criar componente de dropdown para as opções Jogos e Esportes do menu de navegação. (componente no figma)
 [x] Deverá ser executado um gif do jogo quando ocorrer o evento de hover ou click na capa do trailer. (baixar gifs)
 
