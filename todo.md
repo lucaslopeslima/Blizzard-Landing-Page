@@ -25,12 +25,10 @@ Nível Difícil:
 
 Adicionais:
 [x] Open Graph
-[x] gif thum onHover : modal com play. onClick: innerHTML to gif
-[x] gif onHover : modal com STOP. onClick: innerHTML to gif thumb
 [x] btn hover
 [x] transition animation fix
 [] gif animation border blur & shadow blur
 [] scrollbar bg transparent
  - Otimização
-    [] png to webp
+    [x] png to webp
     [] gif to webp

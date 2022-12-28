@@ -24,13 +24,13 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: black;
+  background: #000000;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--color-btn);
-  border-radius: 2px;
+  border-radius: 1px;
 }
 
 /* Handle on hover */
