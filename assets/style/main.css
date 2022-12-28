@@ -1131,6 +1131,7 @@ footer .footer-right-container .app-mini {
   position: absolute;
   top: 0;
   z-index: 99999999;
+  font-family: var(--font-family);
 }
 
 .modal .modal-content {
@@ -1148,9 +1149,14 @@ footer .footer-right-container .app-mini {
   position: absolute;
   top: 20px;
   right: 20px;
-  background-color: green;
+  padding: 5px;
   text-align: right;
   color: var(--color-btn);
+  cursor: pointer;
+}
+
+.modal .modal-content .modal-close:hover {
+  color: var(--color-btn-hover);
 }
 
 .modal .modal-content .modal-logo {
@@ -1173,11 +1179,70 @@ footer .footer-right-container .app-mini {
 
 .modal .modal-content .modal-form input {
   height: 45px;
-  border-radius: 3px;
+  border-radius: 5px;
   border-style: none;
-  margin-bottom: 10px;
-  font-size: 1.2rem;
+  margin-bottom: 15px;
+  font-size: 1rem;
   outline: none;
   padding: 5px;
+  padding-left: 10px;
+}
+
+.modal .modal-content .modal-form .modal-btn {
+  background-color: var(--color-btn);
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 45px;
+  cursor: pointer;
+}
+
+.modal .modal-content .modal-form .modal-btn:hover {
+  background-color: var(--color-btn-hover);
+}
+
+.modal .modal-content .modal-conect {
+  text-align: center;
+}
+
+.modal .modal-content .modal-conect p {
+  font-size: .8rem;
+  margin-bottom: 15px;
+}
+
+.modal .modal-content .modal-conect div p {
+  font-size: 1rem;
+}
+
+.modal .modal-content .modal-conect div p a {
+  color: var(--color-btn);
+  text-decoration: underline;
+}
+
+.modal .modal-content .modal-conect .modal-icons {
+  width: 150px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.modal .modal-content .modal-conect .modal-icons .modal-icon {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  color: black;
+  font-size: 1.3rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=main.css.map */
