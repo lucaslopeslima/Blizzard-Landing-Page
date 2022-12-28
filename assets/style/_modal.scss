@@ -1,0 +1,29 @@
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    z-index: 99999999;
+    .modal-content{
+        width: 90%;
+        padding: 35px;
+        max-width: 550px;
+        background-image: url('../img/modal/diablo-3-wallpaper.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        .modal-close{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: green;
+            text-align: right;
+            color: var(--color-btn);
+        }  
+    }
+    
+}
