@@ -9,7 +9,7 @@
     z-index: 99999999;
     .modal-content{
         width: 90%;
-        padding: 35px;
+        padding: 85px;
         max-width: 550px;
         background-image: url('../img/modal/diablo-3-wallpaper.jpg');
         background-repeat: no-repeat;
@@ -23,7 +23,26 @@
             background-color: green;
             text-align: right;
             color: var(--color-btn);
-        }  
+        }
+        .modal-logo{
+            text-align: center;
+            img{
+                height: 20px;
+            }
+        }
+        .modal-form{
+            display: flex;
+            flex-direction: column;
+            input{
+                height: 45px;
+                border-radius: 3px;
+                border-style: none;
+                margin-bottom: 10px;
+                font-size: 1.2rem;
+                outline: none;
+                padding: 5px;
+            }
+        }
     }
     
 }
