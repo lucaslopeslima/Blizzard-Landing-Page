@@ -313,7 +313,7 @@ header .content-wrap .presentation-gif .presentation-gif-item:hover i {
 }
 
 header .content-wrap .presentation-gif .diablo-gif {
-  background-image: url("../img/banner-hero/games/diablo-animation-cover.png");
+  background-image: url("../img/banner-hero/games/diablo-animation-cover.webp");
 }
 
 header .content-wrap .presentation-gif .diablo-gif:hover {
@@ -321,7 +321,7 @@ header .content-wrap .presentation-gif .diablo-gif:hover {
 }
 
 header .content-wrap .presentation-gif .heartstone-gif {
-  background-image: url("../img/banner-hero/games/hearthstone-animation-cover.png");
+  background-image: url("../img/banner-hero/games/hearthstone-animation-cover.webp");
 }
 
 header .content-wrap .presentation-gif .heartstone-gif:hover {
@@ -329,7 +329,7 @@ header .content-wrap .presentation-gif .heartstone-gif:hover {
 }
 
 header .content-wrap .presentation-gif .wow-gif {
-  background-image: url("../img/banner-hero/games/wow-animation-cover.png");
+  background-image: url("../img/banner-hero/games/wow-animation-cover.webp");
 }
 
 header .content-wrap .presentation-gif .wow-gif:hover {
