@@ -40,6 +40,7 @@ body{
     background-color: var(--bg-color);
     color: var(--font-color);
     font-family: var(--font-family);
+    overflow-x: hidden;
 }
 .flex-center{
     display: flex;
@@ -57,3 +58,4 @@ body{
 @import 'jogosExclusivos';
 @import 'footer';
 @import 'media';
+@import 'modal';
