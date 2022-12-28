@@ -87,6 +87,8 @@ header{
         }
     }
     .top-menu-line{
+        position: relative;
+        z-index: 9999;
         height: 1px;
         width: 100%;
         background-color: gray;
