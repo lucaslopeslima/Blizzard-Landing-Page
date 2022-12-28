@@ -9,7 +9,7 @@ console.log(jogosExclusivos)
 fetch(url).then((res)=>{
     return res.json()
 }).then((data)=>{
-    console.log(data)
+    //console.log(data)
     data.forEach(element => {
         //console.log(element)
         //console.log(element.logo)
@@ -39,7 +39,7 @@ fetch(url).then((res)=>{
 
 
 function criarDropdownJogos(logo, titulo){
-    console.log('entrou na function')
+    //console.log('entrou na function')
     dropdownJogos.innerHTML += 
     `<div class="dropdown-jogos-item">
         <img src="${logo}" alt="${titulo}">
