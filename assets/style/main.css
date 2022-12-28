@@ -1128,7 +1128,7 @@ footer .footer-right-container .app-mini {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: 99999999;
   font-family: var(--font-family);
