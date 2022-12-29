@@ -64,3 +64,5 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 - [x]  O sistema Open Graph para o compartilhamento de Links;
 
 - [x]  Otimizei todo o site para obter pontuações excelentes no Google Lighthouse.
+
+
