@@ -16,24 +16,3 @@ logarBtn.addEventListener('click', ()=>{
 modalClose.addEventListener('click', ()=>{
     modal.style.display = 'none'
 })
-
-
-
-const leftMenuInterval = document.querySelectorAll('.left-menu-item')
-
-//setInterval(menuInterval, 1000);
-
-function menuInterval() {
-    //for(let i = 0; i < leftMenuInterval.length; i++){
-        //console.log(leftMenuInterval[i])
-        let currentLeftBtn = document.querySelectorAll('.left-menu-active')
-        console.log('currentLeftBtn',currentLeftBtn)
-        currentLeftBtn[0].className = currentLeftBtn[0].className.replace('left-menu-active', '')
-        this.className += ' left-menu-active'
-        //console.log('this é ', this.id)
-        //console.log('this typeof é ', typeof(this.id))
-        //updateBanner(this.id)
-        
-    //}
-}
-//menuInterval()
