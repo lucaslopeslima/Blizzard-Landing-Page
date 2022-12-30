@@ -1118,7 +1118,6 @@ footer .footer-right-container .app-mini {
 }
 
 .modal {
-  display: none;
   width: 100vw;
   height: 100vh;
   background-color: black;
@@ -1144,12 +1143,16 @@ footer .footer-right-container .app-mini {
   background-size: cover;
   background-position: center;
   position: relative;
+  -webkit-box-shadow: inset 0px 0px 18px 20px black;
+          box-shadow: inset 0px 0px 18px 20px black;
+  -webkit-box-shadow: inset 0px 0px 18px 20px #000000, inset 0px 0px 45px 30px #3d3d3d;
+          box-shadow: inset 0px 0px 18px 20px #000000, inset 0px 0px 45px 30px #3d3d3d;
 }
 
 .modal .modal-content .modal-close {
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 30px;
   padding: 5px;
   text-align: right;
   color: var(--color-btn);
