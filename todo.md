@@ -27,7 +27,6 @@ Adicionais:
 [x] Open Graph
 [x] btn hover
 [x] transition animation fix
-[] gif animation border blur & shadow blur
 [x] scrollbar
  - Otimização
     [x] png to webp
