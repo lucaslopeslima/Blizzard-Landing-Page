@@ -65,4 +65,8 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 
 - [x]  Otimizei todo o site para obter pontuações excelentes no Google Lighthouse.
 
+![image](https://user-images.githubusercontent.com/63620832/210023461-7a019067-cb72-44b8-987c-e5c304245189.png)
+
+
+
 
